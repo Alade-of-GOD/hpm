@@ -1030,7 +1030,7 @@
                                                 </div>
                                                 <div class="item">
                                                   <div class="our-product">
-                                                    <a href="newletter">
+                                                    <a href="newsletter">
                                                       <div class="frame">
                                                         <img width="319" height="325" src="hpm-content/uploads/images/news-img.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Newsletter" sizes="(max-width: 319px) 100vw, 319px" />
                                                       </div>
