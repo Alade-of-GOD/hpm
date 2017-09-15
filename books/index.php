@@ -827,19 +827,16 @@
 
     <section class="container" id="main-woo">
       <div class="products-display-loop">
-        <div class="woocommerce-message"><a href="../cart/index.php" class="button wc-forward">View cart</a> &ldquo;Happy Ninja&rdquo; has been added to your cart.</div>
-        <p class="woocommerce-result-count">
-          Showing 1&ndash;10 of 23 results</p>
-        <form class="woocommerce-ordering" method="get">
-          <select name="orderby" class="orderby">
-            <option value="menu_order" selected="selected">Default sorting</option>
-            <option value="popularity">Sort by popularity</option>
-            <option value="rating">Sort by average rating</option>
-            <option value="date">Sort by newness</option>
-            <option value="price">Sort by price: low to high</option>
-            <option value="price-desc">Sort by price: high to low</option>
-          </select>
-        </form>
+        <div class="woocommerce-message">
+          <p>To purchase any of our books, kindly put a call through any of our contact lines and we would contact you immediately</p>
+          <p>
+            <ul style="list-style-type: none !important;">
+              <li><i class="fa fa-phone"></i>+2348059133844</li>
+              <li><i class="fa fa-phone"></i>+2347087395119</li>
+              <li><a href="#"><i class="fa fa-envelope-o"></i>hispraisemin@yahoo.co.uk</a></li>
+            </ul>
+          </p>
+        </div>
       </div>
       <ul class="products">
         <?php include_once('fetch-books.php'); ?>
