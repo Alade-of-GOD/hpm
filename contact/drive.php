@@ -18,7 +18,7 @@
             <head>
               <title>Mail from '.$personMail.'</title>
             </head>
-            <body style="background-color: #f4424b; color: #fff;">
+            <body style="background-color: #f4424b; color: #fff; padding: 50px;">
               <p>'.$personMessage.'</p>
             </body>
           </html>
