@@ -1,3 +1,23 @@
+<?php require_once('../dbconnect.php'); ?>
+<?php
+  if (isset($_GET['newslettersub']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
+    if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+      if (isset($_POST['subscriptionemail']) && !empty($_POST['subscriptionemail'])){
+        $s = $_POST['subscriptionemail'];
+        $insert = "INSERT INTO `newsletter_user_mail` (usermail, status)
+        VALUES ('".mysqli_real_escape_string($dbcon, $s)."', '".mysqli_real_escape_string($dbcon, "on")."')";
+        if(!$res = $dbcon->query($insert)){
+          header('Location: index.php?pb=wp2303kjdj43$003dsdw23!^893nwp&subres=failed#subresponse');
+        }
+        else {
+          $dbcon->close();
+          header('Location: index.php?pb=wp2303kjdj43$003dsdw23!^893nwp&subres=success#subresponse');
+        }
+      }
+    }
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js no-svg">
 <head>
@@ -788,7 +808,7 @@
     <header id="header">
       <div class="container-fluid">
         <strong class="logo">
-          <a href="index.php">
+          <a href="../index.php">
           <img class width="190" height="55" src="../hpm-content/uploads/hpm-logo-main.png" alt="HPM">
           </a>
         </strong>
@@ -825,41 +845,12 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
-                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="../">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="pastorsd/index.php">Pastors</a></li>
-                <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-28"><a href="index.php">Events</a></li>
-                <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-29"><a href="index.php">Pages</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-630" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-630"><a href="index.php">Shop</a>
-                      <ul class="sub-menu">
-                        <li id="menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a href="shop/index.php">Products</a></li>
-                        <li id="menu-item-628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-628"><a href="cart/index.php">Cart</a></li>
-                        <li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627"><a href="checkout/index.php">Checkout</a></li>
-                        <li id="menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-626"><a href="my-account/index.php">My Account</a></li>
-                      </ul>
-                    </li>
-                    <li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="404-page/index.php">404 page</a></li>
-                    <li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href="404-page-2/index.php">404 page 2</a></li>
-                    <li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="coming-soon/index.php">Coming Soon</a></li>
-                  </ul>
-                </li>
-                <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-30"><a href="index.php">Blog</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a href="blog/index.php">Blog</a></li>
-                    <li id="menu-item-555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555"><a href="2017/03/13/the-lord-god-of-our-lifes/index.php">Blog Detail</a></li>
-                  </ul>
-                </li>
-                <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-31"><a href="index.php">Gallery</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="gallery-one-column/index.php">Gallery One Column</a></li>
-                    <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="gallery-two-column/index.php">Gallery Two Column</a></li>
-                    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="gallery-three-column/index.php">Gallery Three Column</a></li>
-                    <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="gallery-four-column/index.php">Gallery Four Column</a></li>
-                    <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="gallery-full/index.php">Gallery Full</a></li>
-                  </ul>
-                </li>
+                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
+                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles#boardmembers">Profiles</a></li>
+                <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books">Books</a></li>
+                <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../library">Library</a></li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact">Contact</a></li>
-                <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="index.php">About</a></li>
+                <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="../about" style="background: #f0311e; color: #fff;">About</a></li>
               </ul>
             </div>
           </nav>
@@ -926,7 +917,7 @@
                                       <div class="wpb_single_image wpb_content_element vc_align_left">
                                         <figure class="wpb_wrapper vc_figure">
                                           <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                            <img width="532" height="449" src="images/teju.png" class="vc_single_image-img attachment-full" alt="teju oni" sizes="(max-width: 532px) 100vw, 532px" />
+                                            <img width="532" height="449" src="images/teju.jpg" class="vc_single_image-img attachment-full" alt="teju oni" sizes="(max-width: 532px) 100vw, 532px" />
                                             <p style="margin-left: 30px;"><a href="#">REV. (MRS.) E. TEJU ONI</a></p>
                                           </div>
                                         </figure>
@@ -936,7 +927,7 @@
                                 </div>
                               </div>
                               <div class="vc_row wpb_row vc_row-fluid vc_custom_1503900275172">
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                <div class="wpb_column vc_column_container vc_col-sm-4" id="mission">
                                   <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
                                       <div class="container">
@@ -1095,7 +1086,7 @@
                                                     </div>
                                                   </div>
                                                   <div class="text-box">
-                                                    <h3> <a href="../serve-our-people/index.html">Serve Our People</a></h3>
+                                                    <h3> <a href="../serve-our-people/index.php">Serve Our People</a></h3>
                                                     <span>The True Church can never fail</span> </div>
                                                 </div>
                                               </div>
@@ -1117,7 +1108,7 @@
                                                     </div>
                                                   </div>
                                                   <div class="text-box">
-                                                    <h3> <a href="../prayer-is-a-strong/index.html">Prayer is a Strong</a></h3>
+                                                    <h3> <a href="../prayer-is-a-strong/index.php">Prayer is a Strong</a></h3>
                                                     <span>It is a Goodly Christian Weapon</span> </div>
                                                 </div>
                                               </div>
@@ -1126,14 +1117,14 @@
                                               <div class="box"> <img src="../hpm-content/uploads/2017/03/recent-project-img-3-360x202.jpg" alt="img">
                                                 <div class="caption">
                                                   <div class="text-box">
-                                                    <h3> <a href="../christ-is-faithful/index.html">Christ is faithful</a></h3>
+                                                    <h3> <a href="../christ-is-faithful/index.php">Christ is faithful</a></h3>
                                                     <span>Not Neglecting To Meet Together</span> </div>
                                                 </div>
                                               </div>
                                               <div class="box"> <img src="../hpm-content/uploads/2017/03/recent-project-img-4-360x202.jpg" alt="img">
                                                 <div class="caption">
                                                   <div class="text-box">
-                                                    <h3> <a href="../church-of-god/index.html">Church of God</a></h3>
+                                                    <h3> <a href="../church-of-god/index.php">Church of God</a></h3>
                                                     <span>Care For The Church of God</span> </div>
                                                 </div>
                                               </div>
@@ -1167,7 +1158,7 @@
                                                 <div class="holder">
                                                   <a href="#" class="btn-play"><span class="icon-play-button"></span></a>
                                                   <div class="text-box">
-                                                    <a href="../sermons/join-us-throughout-the-week/index.html" class="title">Join us throughout the week</a>
+                                                    <a href="../sermons/join-us-throughout-the-week/index.php" class="title">Join us throughout the week</a>
                                                     <b> 26/6/2017</b>
                                                   </div>
                                                 </div>
@@ -1175,19 +1166,19 @@
                                               <div class="sermon-box">
                                                 <div class="round-frame"><img src="../hpm-content/uploads/2017/03/sermon-img-4-88x88.jpg" alt="img"></div>
                                                 <div class="holder"> <a href="#" class="btn-play"><span class="icon-play-button"></span></a>
-                                                  <div class="text-box"> <a href="../sermons/have-faith-trust-in-lord-and-he-guide-you/index.html" class="title">Have Faith. Trust in Lord and He Guide You</a> <b> 26/6/2017</b> </div>
+                                                  <div class="text-box"> <a href="../sermons/have-faith-trust-in-lord-and-he-guide-you/index.php" class="title">Have Faith. Trust in Lord and He Guide You</a> <b> 26/6/2017</b> </div>
                                                 </div>
                                               </div>
                                               <div class="sermon-box">
                                                 <div class="round-frame"><img src="../hpm-content/uploads/2017/03/sermon-img-2-88x88.jpg" alt="img"></div>
                                                 <div class="holder"> <a href="#" class="btn-play"><span class="icon-play-button"></span></a>
-                                                  <div class="text-box"> <a href="../sermons/gods-design-for-marriage/index.html" class="title">God’s Design For Marriage</a> <b> 26/6/2017</b> </div>
+                                                  <div class="text-box"> <a href="../sermons/gods-design-for-marriage/index.php" class="title">God’s Design For Marriage</a> <b> 26/6/2017</b> </div>
                                                 </div>
                                               </div>
                                               <div class="sermon-box">
                                                 <div class="round-frame"><img src="../hpm-content/uploads/2017/03/sermon-img-3-88x88.jpg" alt="img"></div>
                                                 <div class="holder"> <a href="#" class="btn-play"><span class="icon-play-button"></span></a>
-                                                  <div class="text-box"> <a href="../sermons/holy-spirit-strategic-thinking/index.html" class="title">Holy Spirit: Strategic Thinking</a> <b> 26/6/2017</b> </div>
+                                                  <div class="text-box"> <a href="../sermons/holy-spirit-strategic-thinking/index.php" class="title">Holy Spirit: Strategic Thinking</a> <b> 26/6/2017</b> </div>
                                                 </div>
                                               </div>
                                             </div>
@@ -1213,7 +1204,7 @@
                                               <strong class="title">Deacon A. Rotimi Oni</strong>
                                               <span> Secretary</span>
                                             </div>
-                                            <div class="thumb"><img src="../board/profile-pic/rotimi_oni.png" alt="Secretary"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/rotimi_oni.jpg" alt="Secretary"></div>
                                             <div class="text-box">
                                               <p>A devoted worker in the church of Christ, who has served in various capacities among the Christian ministries over the years.  Deacon A.R Oni holds a bachelor’s degree in Pharmacy, University of Ife and, a Master’s degree in Pharmaceutics & Pharmaceutical technology from the University of Ibadan. </p>
                                             </div>
@@ -1267,7 +1258,7 @@
                                             <div class="left-box">
                                               <strong class="title">Deacon A. Rotimi Oni</strong>
                                             </div>
-                                            <div class="thumb"><img src="../board/profile-pic/rotimi_oni.png" alt="Rotimi Oni"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/rotimi_oni.jpg" alt="Rotimi Oni"></div>
                                             <div class="text-box">
                                               <p>A devoted worker in the church of Christ, who has served in various capacities among the Christian ministries over the years.  Deacon A.R Oni holds a bachelor’s degree in Pharmacy, University of Ife and, a Master’s degree in Pharmaceutics & Pharmaceutical technology from the University of Ibadan.</p>
                                             </div>
@@ -1420,18 +1411,25 @@
                 <ul>
                   <li><a href="../">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="../board">Board Members</a></li>
-                  <li><a href="../donate">Donate</a></li>
+                  <li><a href="../profiles#boardmembers">Board Members</a></li>
+                  <li><a href="../profiles">Profiles</a></ali>
+                  <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
                 <h3>Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
-                  <form method="post" action="index.php">
+                  <p id="subresponse">
+                    <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
+                      if (isset($_GET['subres']) && $_GET['subres'] == 'success') echo 'You have successfully subscribed to HPM newsletter...';
+                      if (isset($_GET['subres']) && $_GET['subres'] == 'failed') echo 'Subscription failed! Try again';
+                    } ?>
+                  </p>
+                  <form method="post" action="index.php?newslettersub&pb=wp2303kjdj43$003dsdw23!^893nwp">
                     <div class="col-md-7 col-sm-12">
-                      <input type="email" name="newsletter-box" placeholder="Enter your Mail"/>
+                      <input type="email" name="subscriptionemail" placeholder="Enter your Mail"/>
                     </div>
                     <div class="col-md-1 col-sm-12"></div>
                     <div class="col-md-3 col-sm-12">
@@ -1446,7 +1444,7 @@
       </section>
       <section class="footer-section-2">
         <div class="container">
-          <a class="ft-logo" title="HPM" href="index.php">
+          <a class="ft-logo" title="HPM" href="../">
             <img width="190" height="55" src="../hpm-content/uploads/hpm-logo-bottom.png" alt="HPM"/>
           </a>
           <strong class="copyrights"><Copyright> (c) 2017 Copyright HPM All Rights Reserved.</Copyright></strong>
@@ -1472,3 +1470,4 @@
 </body>
 
 </html>
+<?php $dbcon->close(); ?>

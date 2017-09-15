@@ -7,9 +7,6 @@
   $page = (($next * $end) - $end);
   $fetch = "SELECT * FROM `booksstores`
           ORDER BY `rowId` DESC LIMIT $page, $end";
-  if(!$result = $dbcon->query($fetch)){
-    die('There was an error running the query [' . $dbcon->error . ']');
-  }
   $next++;
   if(!$result = $dbcon->query($fetch)){
     die('There was an error running the query [' . $dbcon->error . ']');
@@ -20,8 +17,8 @@
       $booksum = $row['bookSummary'];
       $bookcover = $row['bookCover'];
       echo '<li class="post-616 product type-product status-publish has-post-thumbnail product_cat-posters first instock sale shipping-taxable purchasable product-type-simple">
-              <a href="../product/flying-ninja/index.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-                <img width="300" height="300" src="'.$bookcover.'" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="'.$booktitle.'" sizes="(max-width: 300px) 100vw, 300px"/>
+              <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                <img width="300" height="300" src="../'.$bookcover.'" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="'.$booktitle.'" sizes="(max-width: 300px) 100vw, 300px"/>
           <p>'.$booksum.'</p>
           <span class="price">
             <del>

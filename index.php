@@ -1,16 +1,37 @@
+<?php require_once('dbconnect.php'); ?>
+<?php
+  if (isset($_GET['newslettersub']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
+    if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+      if (isset($_POST['subscriptionemail']) && !empty($_POST['subscriptionemail'])){
+        $s = $_POST['subscriptionemail'];
+        $insert = "INSERT INTO `newsletter_user_mail` (usermail, status)
+        VALUES ('".mysqli_real_escape_string($dbcon, $s)."', '".mysqli_real_escape_string($dbcon, "on")."')";
+        if(!$res = $dbcon->query($insert)){
+          header('Location: index.php?pb=wp2303kjdj43$003dsdw23!^893nwp&subres=failed#subresponse');
+        }
+        else {
+          $dbcon->close();
+          header('Location: index.php?pb=wp2303kjdj43$003dsdw23!^893nwp&subres=success#subresponse');
+        }
+      }
+    }
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js no-svg">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="description" content="His Praise Ministries Incorporated">
+  <meta name="description" content="HPM">
+  <meta name="keywords" content="HPM, His Praise Ministries Incorporated, His Praise Ministries Inc.">
+  <meta name="author" content="Jesusboythatcodes">
+  <meta name="author" content="PoG">
   <link rel="shortcut icon" href="hpm-content/uploads/favicon.png" />
   <title>His Praise Ministry</title>
   <link rel="stylesheet" id="layerslider-css" href="hpm-content/plugins/LayerSlider/static/layerslider/css/layerslideradc6.css?ver=6.5.5" type="text/css" media="all" />
-  <link rel="stylesheet" id="contact-form-7-css" href="hpm-content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8" type="text/css" media="all" />
-  <link rel="stylesheet" id="woocommerce-smallscreen-css" href="hpm-content/plugins/woocommerce/assets/css/woocommerce-smallscreenb12b.css?ver=3.1.1" type="text/css" media="only screen and (max-width: 768px)" />
-  <link rel="stylesheet" id="hpm-fullcalendar-css" href="hpm-content/plugins/hpm-fullcalendar/includes/css/main62ea.css?ver=1.2" type="text/css" media="all" />
-  <link rel="stylesheet" id="jquery-ui-css" href="hpm-content/plugins/hpm-fullcalendar/includes/css/jquery-ui/eggplant/jquery-ui.min62ea.css?ver=1.2" type="text/css" media="all" />
-  <link rel="stylesheet" id="jquery-ui-theme-css" href="hpm-content/plugins/hpm-fullcalendar/includes/css/jquery-ui/eggplant/theme62ea.css?ver=1.2" type="text/css" media="all" />
   <link rel="stylesheet" id="default-style-css" href="hpm-content/themes/lord/stylea288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="cp-mCustomScrollbar-css" href="hpm-content/themes/lord/frontend/css/jquery.mCustomScrollbara288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="cp-widgets-css-css" href="hpm-content/themes/lord/frontend/css/lord_widgetsa288.css" type="text/css" media="all" />
@@ -21,7 +42,6 @@
   <link rel="stylesheet" id="cp-countdown-css" href="hpm-content/themes/lord/frontend/css/jquery.countdowna288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="cp-lord-csmenu-css" href="hpm-content/themes/lord/frontend/css/mmenu.mina288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="law-bx-slider-css-css" href="hpm-content/themes/lord/frontend/css/jquery.bxslidera288.css" type="text/css" media="all" />
-  <link rel="stylesheet" id="audio-pcss-css" href="hpm-content/themes/lord/frontend/css/audioplayera288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="cp-bootstrap-css" href="hpm-content/themes/lord/frontend/css/bootstrapa288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="lord-color-css" href="hpm-content/themes/lord/frontend/css/colora288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="cp-hpm-commerce-css" href="hpm-content/themes/lord/frontend/css/hpm-commercea288.css" type="text/css" media="all" />
@@ -38,59 +58,10 @@
   </style>
   <link rel="stylesheet" id="js_composer_front-css" href="hpm-content/plugins/js_composer/assets/css/js_composer.min5fba.css?ver=5.2" type="text/css" media="all" />
   <link rel="stylesheet" id="jquery-ui-smoothness-css" href="hpm-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.mine899.css?ver=1.11.4" type="text/css" media="screen" />
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var LS_Meta = {
-      "v": "6.5.5"
-    };
-    /* ]]> */
-  </script>
   <script type="text/javascript" data-cfasync="false" src="hpm-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0"></script>
   <script type="text/javascript" src="hpm-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
   <script type="text/javascript" data-cfasync="false" src="hpm-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jqueryadc6.js?ver=6.5.5"></script>
   <script type="text/javascript" data-cfasync="false" src="hpm-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsadc6.js?ver=6.5.5"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/core.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/widget.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/position.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/mouse.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/sortable.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/datepicker.mine899.js"></script>
-  <script type="text/javascript">
-    jQuery(document).ready(function(jQuery) {
-      jQuery.datepicker.setDefaults({
-        "closeText": "Close",
-        "currentText": "Today",
-        "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-        "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-        "nextText": "Next",
-        "prevText": "Previous",
-        "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-        "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
-        "dateFormat": "MM d, yy",
-        "firstDay": 1,
-        "isRTL": false
-      });
-    });
-  </script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/menu.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/hpm-a11y.mina288.js"></script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var uiAutocompleteL10n = {
-      "noResults": "No results found.",
-      "oneResult": "1 result found. Use up and down arrow keys to navigate.",
-      "manyResults": "%d results found. Use up and down arrow keys to navigate.",
-      "itemSelected": "Item selected."
-    };
-    /* ]]> */
-  </script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/autocomplete.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/resizable.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/draggable.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/button.mine899.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/dialog.mine899.js"></script>
   <script type="text/javascript">
     /* <![CDATA[ */
     var EM = {
@@ -98,47 +69,7 @@
     /* ]]> */
   </script>
   <script type="text/javascript" src="hpm-content/plugins/events-manager/includes/js/events-managere23c.js"></script>
-  <script type="text/javascript" src="hpm-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minb12b.js"></script>
-  <script type="text/javascript" src="hpm-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart5fba.js?ver=5.2"></script>
-  <script type="text/javascript" src="hpm-includes/js/jquery/ui/selectmenu.mine899.js"></script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var WPFC = {
-      "ajaxurl": "http:\/\/lord.crunchpress.com\/hpm-admin\/admin-ajax.php",
-      "firstDay": "1",
-      "wpfc_theme": "1",
-      "wpfc_limit": "3",
-      "wpfc_limit_txt": "more ...",
-      "timeFormat": "h(:mm)A",
-      "defaultView": "month",
-      "weekends": "true",
-      "header": {
-        "left": "prev,next today",
-        "center": "title",
-        "right": "month,basicWeek,basicDay"
-      },
-      "wpfc_qtips": "1",
-      "wpfc_qtips_classes": "ui-tooltip-blue",
-      "wpfc_qtips_my": "top center",
-      "wpfc_qtips_at": "bottom center"
-    };
-    /* ]]> */
-  </script>
-  <script type="text/javascript" src="hpm-content/plugins/hpm-fullcalendar/includes/js/main62ea.js"></script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var object_name = {
-      "templateUrl": "http:\/\/lord.crunchpress.com\/hpm-content\/themes\/lord\/frontend\/images"
-    };
-    /* ]]> */
-  </script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/images/indexa288.html?ver=4.8.1"></script>
-  <script type="text/javascript">
-    var ajaxurl = 'hpm-admin/admin-ajax.html';
-  </script>
-  <script type="text/JavaScript">
-    var ajaxurl = 'hpm-admin/admin-ajax.html'; var directory_url = 'hpm-content/themes/lord';
-  </script>
   <style type="text/css">
     body,
     .main-content {
@@ -903,8 +834,8 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
-                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="index.php">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="board">Profiles</a></li>
+                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="index.php" style="background: #f0311e; color: #fff;">Home</a></li>
+                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="profiles">Profiles</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="books">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="library">Library</a></li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="contact">Contact</a></li>
@@ -930,16 +861,6 @@
           </div>
         </div>
         <div class="item">
-          <img src="hpm-content/slider/img-slider-3.jpg" alt="HMp" />
-          <div class="caption">
-            <div class="container">
-              <span style="text-transform: none;">actualizing its goals... </span>
-              <h1 style="text-transform: none; font-size: 15px;">focusing on families and youths</h1>
-              <div class="btn-row"><a href="about/" class="btn-style-2">About</a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
           <img src="hpm-content/slider/img-slider-2.jpg" alt="HPM" />
           <div class="caption">
             <div class="container">
@@ -950,12 +871,12 @@
           </div>
         </div>
         <div class="item">
-          <img src="hpm-content/uploads/2017/01/banner-img-1.jpg" alt="img" />
+          <img src="hpm-content/uploads/2017/01/banner-img-1.jpg" alt="HPM" />
           <div class="caption">
             <div class="container">
               <h1 style="text-transform: none;">His Praise Ministries</h1>
               <span style="text-transform: none;">gaining and equiping the Youth to consistently align with the will and expectations of Jesus Christ unto eternity.</span>
-              <div class="btn-row"><a href="contact/" class="btn-style-2">Contact</a> </div>
+              <div class="btn-row"><a href="about" class="btn-style-2">About</a> </div>
             </div>
           </div>
         </div>
@@ -983,37 +904,31 @@
                                         <div class="container">
                                           <div class="row">
                                             <div class="col-md-6">
-                                              <div class="heading-style-2"> <span>Welcome to Our Church</span>
-                                                <h2>Lord, a Grant me a heart that seeks You above all else</h2>
+                                              <div class="heading-style-2"> <span>Welcome to His Praise Ministries</span>
+                                                <h4>
+                                                  His Praise Ministries Incorporated (HPM) is a non profit Christian Organisation founded in October, 1998, at Ibadan, Nigeria<br>
+                                                  It is a ministry established to foster deeply committed and meaningful interpersonal relationships between God and man in the home, church and society. To actualize its goal, the ministry’s focus is on the family and youths.
+                                                </h4>
                                               </div>
-                                              <p>Dear Lord, You alone are the Comforter. Please provide a season of comfort in the midst of deep sadness, to the hearts that are hurting. consectetuer ipsum dolor sit amet justo et sit amet justo consectetuer adipiscing elit.Maecenas porttitor neque eu sem nullam lectus neque, blandit quis mattis quis varius eu eros ivamus ads metus. </p>
+                                              <p><a href="about">Read more...</a>
                                               <ul>
                                                 <li>
-                                                  <div class="icon-box"><span class="icon-bible"></span></div>
                                                   <div class="text-box">
-                                                    <h3><a href="about/index.php#vision">OUR VISIONS</a></h3>
-                                                    <p>You can have it all, Lord. Every part of my world. Take this life and breathe on, this heart that is now Yours.</p>
+                                                    <h3><a href="about/index.php#vision">OUR VISION</a></h3>
+                                                    <p>Reaching out to the Family globally for their Salvation and Stability for the Enlargement of the Church of God.</p>
                                                   </div>
                                                 </li>
                                                 <li>
-                                                  <div class="icon-box"><span class="icon-bible"></span></div>
                                                   <div class="text-box">
-                                                    <h3><a href="#">Latest Teaching</a></h3>
-                                                    <p>We need you, Lord. Please cover the hurt with Your faithful and peaceful presence, Jesus. In Your name we pray, Amen. </p>
-                                                  </div>
-                                                </li>
-                                                <li>
-                                                  <div class="icon-box"><span class="icon-bible"></span></div>
-                                                  <div class="text-box">
-                                                    <h3><a href="#">New Here?</a></h3>
-                                                    <p>Tell us about yourself to be a part of this remarkable journey with connecting to our Church. </p>
+                                                    <h3><a href="about/index.php#mission">Our MISSION</a></h3>
+                                                    <p>To harness the Family in every way onto its Eternal and Life purposes.</p>
                                                   </div>
                                                 </li>
                                               </ul>
                                             </div>
                                             <div class="col-md-6">
-                                              <div class="frame-1"><img src="hpm-content/uploads/2017/01/about-img-1-270x263.jpg" alt="img"></div>
-                                              <div class="frame-2"><img src="hpm-content/uploads/2017/01/about-img-2-293x257.jpg" alt="img"></div>
+                                              <div class="frame-1"><img src="hpm-content/uploads/2017/01/about-img-1-270x263.jpg" alt="HPM"></div>
+                                              <div class="frame-2"><img src="hpm-content/uploads/2017/01/about-img-2-293x257.jpg" alt="HPM"></div>
                                             </div>
                                           </div>
                                         </div>
@@ -1023,7 +938,7 @@
                                 </div>
                               </div>
                               <div class="vc_row-full-width vc_clearfix"></div>
-                              <div id="vevent" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914414813 vc_row-has-fill vc_row-no-padding">
+                              <!--<div id="vevent" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914414813 vc_row-has-fill vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                   <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
@@ -1086,91 +1001,67 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="vc_row-full-width vc_clearfix"></div>
-                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489663345233 vc_row-has-fill vc_row-no-padding">
+                              <div class="vc_row-full-width vc_clearfix"></div>-->
+                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489736882041 vc_row-has-fill vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                   <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                      <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
+                                      <div class="vc_empty_space" style="height: 45px"><span class="vc_empty_space_inner"></span></div>
                                       <div class="heading-center">
-                                        <h2>Recent Pastors</h2>
-                                        <span><b><em>WE LIVE TO PRAISE HIM</em></b></span>
+                                        <h2>Activities and Features</h2>
+                                        <span><b><em>See our shop</em></b></span>
                                       </div>
-                                      <section class="our-pastore pastore-page">
+                                      <section class="sermons-section">
                                         <div class="container">
                                           <div class="row">
-                                            <div class="col-md-3 col-sm-4">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/pastore-detail-img-1-263x368.png" alt="img">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href="pastors/dana-amberbach/index.php" class="title">Dana Amberbach</a> <span>Gabriel Singer</span> </div>
-                                                </div>
-                                                <div class="hover-box">
-                                                  <div class="holder"> <strong class="name"><a href="pastors/dana-amberbach/index.php">Dana Amberbach</a></strong> <span>Gabriel Singer</span>
-                                                    <div class="social">
-                                                      <ul>
-                                                        <li><a href="http://facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://linkedin.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://twiter.com/"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://plus.google.com/"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                                                      </ul>
-                                                    </div>
+                                            <div class="col-md-12">
+                                              <div class="product-detail-slider-2 owl-carousel owl-theme">
+                                                <div class="item">
+                                                  <div class="our-product">
+                                                    <a href="libary">
+                                                      <div class="frame">
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/shelve.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Library" sizes="(max-width: 319px) 100vw, 319px" />
+                                                      </div>
+                                                      <div class="text-box">
+                                                        <h3><a href="library">HPM Library</a></h3>
+                                                      </div>
+                                                    </a>
                                                   </div>
                                                 </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-4">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/02/pastor-img-3-263x368.jpg" alt="img">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href="pastors/jonatha-doe/index.php" class="title">Jonatha Doe</a> <span>Gabriel Singer</span> </div>
-                                                </div>
-                                                <div class="hover-box">
-                                                  <div class="holder"> <strong class="name"><a href="pastors/jonatha-doe/index.php">Jonatha Doe</a></strong> <span>Gabriel Singer</span>
-                                                    <div class="social">
-                                                      <ul>
-                                                        <li><a href="http://facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://linkedin.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://twiter.com/"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://plus.google.com/"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                                                      </ul>
-                                                    </div>
+                                                <div class="item">
+                                                  <div class="our-product">
+                                                    <a href="newletter">
+                                                      <div class="frame">
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/news-img.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Newsletter" sizes="(max-width: 319px) 100vw, 319px" />
+                                                      </div>
+                                                      <div class="text-box">
+                                                        <h3><a href="newsletter">HPM Newsletter</a></h3>
+                                                      </div>
+                                                    </a>
                                                   </div>
                                                 </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-4">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/02/pastor-img-2-263x368.jpg" alt="img">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href="pastors/david-anaial/index.php" class="title">David Anaial</a> <span>Gabriel Singer</span> </div>
-                                                </div>
-                                                <div class="hover-box">
-                                                  <div class="holder"> <strong class="name"><a href="pastors/david-anaial/index.php">David Anaial</a></strong> <span>Gabriel Singer</span>
-                                                    <div class="social">
-                                                      <ul>
-                                                        <li><a href="http://facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://linkedin.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://twiter.com/"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://plus.google.com/"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                                                      </ul>
-                                                    </div>
+                                                <div class="item">
+                                                  <div class="our-product">
+                                                    <a href="counselling">
+                                                      <div class="frame">
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/counselling.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Counselling" sizes="(max-width: 319px) 100vw, 319px" />
+                                                      </div>
+                                                      <div class="text-box">
+                                                        <h3><a href="counselling">HPM Counselling</a></h3>
+                                                      </div>
+                                                    </a>
                                                   </div>
                                                 </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-4">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/02/pastor-img-1-263x368.jpg" alt="img">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href="pastors/jonatha-doe-2/index.php" class="title">Jonatha Doe</a> <span>Gabriel Singer</span> </div>
-                                                </div>
-                                                <div class="hover-box">
-                                                  <div class="holder"> <strong class="name"><a href="pastors/jonatha-doe-2/index.php">Jonatha Doe</a></strong> <span>Gabriel Singer</span>
-                                                    <div class="social">
-                                                      <ul>
-                                                        <li><a href="http://facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://linkedin.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://twiter.com/"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                                        <li><a href="http://plus.google.com/"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                                                      </ul>
-                                                    </div>
+                                                <div class="item">
+                                                  <div class="our-product">
+                                                    <a href="evangelism">
+                                                      <div class="frame">
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/evangelism.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Evangelsim" sizes="(max-width: 319px) 100vw, 319px" />
+                                                      </div>
+                                                      <div class="text-box">
+                                                        <h3><a href="evangelism">HPM Evangelism</a></h3>
+                                                      </div>
+                                                    </a>
                                                   </div>
                                                 </div>
                                               </div>
@@ -1183,8 +1074,83 @@
                                 </div>
                               </div>
                               <div class="vc_row-full-width vc_clearfix"></div>
-                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914299767 vc_row-has-fill vc_row-no-padding">
+                              <!--<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489993504505 vc_row-has-fill vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                      <div class="heading-center">
+                                        <h2>From The Gallery</h2>
+                                        <span><b><em>Here are the pictures of some of our past events</em></b></span>
+                                      </div>
+                                      <section class="gallery-style-1">
+                                        <div class="container">
+                                          <div class="row portfolio_block columns3">
+                                            <div class="col-md-4 col-sm-4 element gall a683">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/2017/03/gallery-style-01-img-6-379x240.jpg" alt="gallery img 0">
+                                                <!--<div class="caption">
+                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                    <strong class="title">Holy Spirit: Strategic </strong>
+                                                    <span>Christmas</span>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4 element gall a683">
+                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-2-379x240.jpg" alt="gallery img 1">
+                                                <!--<div class="caption">
+                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Christmas</span> </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4 element gall a685">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/2017/03/gallery-style-01-img-5-379x240.jpg" alt="gallery img 0">
+                                                <!--<div class="caption">
+                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Good Friday</span> </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4 element gall a685">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/2017/03/gallery-style-01-img-4-379x240.jpg" alt="gallery img 1">
+                                                <!--<div class="caption">
+                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Good Friday</span> </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4 element gall a687">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/2017/03/gallery-style-01-img-1-379x240.jpg" alt="gallery img 0">
+                                                <!--<div class="caption">
+                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>LENT</span> </div>
+                                                </div
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4 element gall a687">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/2017/03/gallery-style-01-img-3-379x240.jpg" alt="gallery img 1">
+                                                <!--<div class="caption">
+                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>LENT</span> </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="btn-row"><a href="gallery" class="btn-style-2">View More Images</a></div>
+                                        </div>
+                                      </section>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>-->
+                              <div class="vc_row-full-width vc_clearfix"></div>
+                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914299767 vc_row-has-fill vc_row-no-padding">
+                                <div class="wpb_column vc_column_container vc_col-sm-12" id="donate">
                                   <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
                                       <section class="donate-section">
@@ -1209,184 +1175,6 @@
                                 </div>
                               </div>
                               <div class="vc_row-full-width vc_clearfix"></div>
-                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489736882041 vc_row-has-fill vc_row-no-padding">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                  <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                      <div class="vc_empty_space" style="height: 45px"><span class="vc_empty_space_inner"></span></div>
-                                      <div class="heading-center">
-                                        <h2>Our Charity Store</h2>
-                                        <span><b><em>See our shop</em></b></span>
-                                      </div>
-                                      <section class="sermons-section">
-                                        <div class="container">
-                                          <div class="row">
-                                            <div class="col-md-12">
-                                              <div class="product-detail-slider-2 owl-carousel owl-theme">
-                                                <div class="item">
-                                                  <div class="our-product">
-                                                    <div class="frame"><img width="319" height="325" src="hpm-content/uploads/2013/06/charity-store-img-1.png" class="attachment-319x325 size-319x325 hpm-post-image" alt srcset="http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-1.png 319w, http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-1-294x300.png 294w" sizes="(max-width: 319px) 100vw, 319px" /></div>
-                                                    <div class="text-box">
-                                                      <h3><a href="product/woo-logo/index.php">Woo Logo</a></h3>
-                                                      <strong class="amount">&#036;20</strong>
-                                                      <ul class="our-product-social">
-                                                        <li><a href="indexbd81.html?add-to-cart=15" rel="nofollow" data-product_id data-product_sku="add_to_cart_button" class="cart product_type_Add to cart"><span class="icon-shopping-cart"></span></a></li>
-                                                        <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/product/woo-logo/"><span class="icon-share-button-outline"></span></a></li>
-                                                      </ul>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div class="item">
-                                                  <div class="our-product">
-                                                    <div class="frame"><img width="319" height="325" src="hpm-content/uploads/2013/06/charity-store-img-3.png" class="attachment-319x325 size-319x325 hpm-post-image" alt srcset="http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-3.png 319w, http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-3-294x300.png 294w" sizes="(max-width: 319px) 100vw, 319px" /></div>
-                                                    <div class="text-box">
-                                                      <h3><a href="product/premium-quality/index.php">Premium Quality</a></h3>
-                                                      <strong class="amount">&#036;20</strong>
-                                                      <ul class="our-product-social">
-                                                        <li><a href="index9d1e.html?add-to-cart=605" rel="nofollow" data-product_id data-product_sku="add_to_cart_button" class="cart product_type_Add to cart"><span class="icon-shopping-cart"></span></a></li>
-                                                        <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/product/premium-quality/"><span class="icon-share-button-outline"></span></a></li>
-                                                      </ul>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div class="item">
-                                                  <div class="our-product">
-                                                    <div class="frame"><img width="319" height="325" src="hpm-content/uploads/2013/06/charity-store-img-2.png" class="attachment-319x325 size-319x325 hpm-post-image" alt srcset="http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-2.png 319w, http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-2-294x300.png 294w" sizes="(max-width: 319px) 100vw, 319px" /></div>
-                                                    <div class="text-box">
-                                                      <h3><a href="product/ship-your-idea/index.php">Ship Your Idea</a></h3>
-                                                      <strong class="amount">&#036;20</strong>
-                                                      <ul class="our-product-social">
-                                                        <li><a href="product/ship-your-idea/index.php" rel="nofollow" data-product_id data-product_sku="add_to_cart_button" class="cart product_type_Select options"><span class="icon-shopping-cart"></span></a></li>
-                                                        <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/product/ship-your-idea/"><span class="icon-share-button-outline"></span></a></li>
-                                                      </ul>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div class="item">
-                                                  <div class="our-product">
-                                                    <div class="frame"><img width="319" height="325" src="hpm-content/uploads/2013/06/charity-store-img-1.png" class="attachment-319x325 size-319x325 hpm-post-image" alt srcset="http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-1.png 319w, http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-1-294x300.png 294w" sizes="(max-width: 319px) 100vw, 319px" /></div>
-                                                    <div class="text-box">
-                                                      <h3><a href="product/ninja-silhouette/index.php">Ninja Silhouette</a></h3>
-                                                      <strong class="amount">&#036;20</strong>
-                                                      <ul class="our-product-social">
-                                                        <li><a href="index59d6.html?add-to-cart=606" rel="nofollow" data-product_id data-product_sku="add_to_cart_button" class="cart product_type_Add to cart"><span class="icon-shopping-cart"></span></a></li>
-                                                        <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/product/ninja-silhouette/"><span class="icon-share-button-outline"></span></a></li>
-                                                      </ul>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div class="item">
-                                                  <div class="our-product">
-                                                    <div class="frame"><img width="319" height="325" src="hpm-content/uploads/2013/06/charity-store-img-2.png" class="attachment-319x325 size-319x325 hpm-post-image" alt srcset="http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-2.png 319w, http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-2-294x300.png 294w" sizes="(max-width: 319px) 100vw, 319px" /></div>
-                                                    <div class="text-box">
-                                                      <h3><a href="product/woo-ninja/index.php">Woo Ninja</a></h3>
-                                                      <strong class="amount">&#036;20</strong>
-                                                      <ul class="our-product-social">
-                                                        <li><a href="index23d2.html?add-to-cart=607" rel="nofollow" data-product_id data-product_sku="add_to_cart_button" class="cart product_type_Add to cart"><span class="icon-shopping-cart"></span></a></li>
-                                                        <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/product/woo-ninja/"><span class="icon-share-button-outline"></span></a></li>
-                                                      </ul>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div class="item">
-                                                  <div class="our-product">
-                                                    <div class="frame"><img width="319" height="325" src="hpm-content/uploads/2013/06/charity-store-img-3.png" class="attachment-319x325 size-319x325 hpm-post-image" alt srcset="http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-3.png 319w, http://lord.crunchpress.com/hpm-content/uploads/2013/06/charity-store-img-3-294x300.png 294w" sizes="(max-width: 319px) 100vw, 319px" /></div>
-                                                    <div class="text-box">
-                                                      <h3><a href="product/happy-ninja/index.php">Happy Ninja</a></h3>
-                                                      <strong class="amount">&#036;18</strong>
-                                                      <ul class="our-product-social">
-                                                        <li><a href="index884e.html?add-to-cart=608" rel="nofollow" data-product_id data-product_sku="add_to_cart_button" class="cart product_type_Add to cart"><span class="icon-shopping-cart"></span></a></li>
-                                                        <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/product/happy-ninja/"><span class="icon-share-button-outline"></span></a></li>
-                                                      </ul>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </section>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="vc_row-full-width vc_clearfix"></div>
-                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489993504505 vc_row-has-fill vc_row-no-padding">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                  <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                      <div class="heading-center">
-                                        <h2>From The Gallery</h2>
-                                        <span><b><em>Here is our Galery</em></b></span>
-                                      </div>
-                                      <section class="gallery-style-1">
-                                        <div class="container">
-                                          <div id="options">
-                                            <ul id="filter" class="option-set" data-option-key="filter">
-                                              <li><a class="selected current" href="#filter" data-option-value="*">All</a></li>
-                                              <li><a href="#filter" data-option-value=".a683">Christmas</a></li>
-                                              <li><a href="#filter" data-option-value=".a685">Good Friday</a></li>
-                                              <li><a href="#filter" data-option-value=".a687">Lent</a></li>
-                                            </ul>
-                                          </div>
-                                          <div class="row portfolio_block columns3">
-                                            <div class="col-md-4 col-sm-4 element gall a683">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-6-379x240.jpg" alt="gallery img 0">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Christmas</span> </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4 element gall a683">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-2-379x240.jpg" alt="gallery img 1">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Christmas</span> </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4 element gall a685">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-5-379x240.jpg" alt="gallery img 0">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Good Friday</span> </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4 element gall a685">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-4-379x240.jpg" alt="gallery img 1">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>Good Friday</span> </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4 element gall a687">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-1-379x240.jpg" alt="gallery img 0">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>LENT</span> </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4 element gall a687">
-                                              <div class="frame"> <img src="hpm-content/uploads/2017/03/gallery-style-01-img-3-379x240.jpg" alt="gallery img 1">
-                                                <div class="caption">
-                                                  <div class="holder"> <a href class="link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    <strong class="title">Holy Spirit: Strategic </strong> <span>LENT</span> </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="btn-row"><a href="gallery-full/index.php" class="btn-style-2">View More Images</a></div>
-                                        </div>
-                                      </section>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="vc_row-full-width vc_clearfix"></div>
                               <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489998661418 vc_row-has-fill vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                   <div class="vc_column-inner ">
@@ -1399,36 +1187,93 @@
                                       <section class="home-blog">
                                         <div class="container">
                                           <div class="row">
-                                            <div class="col-md-4 col-sm-4">
-                                              <div class="blog-style-1">
-                                                <img src=""/>
-                                                <a href="church-of-god/index.php" class="title">Church of God</a>
-                                                <span>08 Mar 2017. Category Uncategorized</span>
-                                                <p>Church tiam dictum Nunc enim Sed massa tellus aliquam, rhoncus venenatis quis suscipit ac libero. Church tiam dictum Nunc enim Sed massa tellu...{+}</p>
-                                                <div class="round-frame"><img alt src="http://2.gravatar.com/avatar/b61deaaa04920c6f331ffd7879d75dbc?s=50&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b61deaaa04920c6f331ffd7879d75dbc?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo" height="50" width="50" /></div>
-                                                <strong class="name">admin</strong> </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                              <div class="blog-style-1">
-                                                <a href="christ-is-faithful/index.php" class="title">Christ is faithful</a> <span>08 Mar 2017
-. Category Uncategorized</span>
-                                                <p>Church tiam dictum Nunc enim Sed massa tellus aliquam, rhoncus venenatis quis suscipit ac libero. Church tiam dictum Nunc enim Sed massa tellu...{+}</p>
-                                                <div class="round-frame"><img alt src="http://2.gravatar.com/avatar/b61deaaa04920c6f331ffd7879d75dbc?s=50&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b61deaaa04920c6f331ffd7879d75dbc?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo" height="50" width="50" /></div>
-                                                <strong class="name">admin</strong> </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                              <div class="blog-style-1">
-                                                <a href="prayer-is-a-strong/index.php" class="title">Prayer is a Strong</a> <span>08 Mar 2017
-. Category Uncategorized</span>
-                                                <p>Church tiam dictum Nunc enim Sed massa tellus aliquam, rhoncus venenatis quis suscipit ac libero. Church tiam dictum Nunc enim Sed massa tellu...{+}</p>
-                                                <div class="round-frame"><img alt src="http://2.gravatar.com/avatar/b61deaaa04920c6f331ffd7879d75dbc?s=50&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b61deaaa04920c6f331ffd7879d75dbc?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo" height="50" width="50" /></div>
-                                                <strong class="name">admin</strong> </div>
-                                            </div>
+                                            <?php include_once('books/books3.php'); ?>
                                           </div>
-                                          <div class="btn-row"><a href="blog/index.php" class="btn-style-1">View All Posts</a></div>
+                                          <div class="btn-row"><a href="books" class="btn-style-1">View All Books</a></div>
                                         </div>
                                       </section>
                                       <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="vc_row-full-width vc_clearfix"></div>
+                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489663345233 vc_row-has-fill vc_row-no-padding">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                      <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
+                                      <div class="heading-center">
+                                        <h2>Support Mission</h2>
+                                        <span><b><em>we have alliance with</em></b></span>
+                                      </div>
+                                      <section class="our-pastore pastore-page">
+                                        <div class="container">
+                                          <div class="row">
+                                            <div class="col-md-3 col-sm-4">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/images/capro1.jpg" alt="capro">
+                                                <div class="caption">
+                                                  <div class="holder">
+                                                    <a href="#" class="title">CAPRO</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-4">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/images/nig-benin.jpg" alt="HPM">
+                                                <div class="caption">
+                                                  <div class="holder">
+                                                    <a href="#" class="title">NIG/BENIN BORDER</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-4">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/images/alaba-camp.jpg" alt="ALABA CAMP">
+                                                <div class="caption">
+                                                  <div class="holder">
+                                                    <a href="#" class="title">ALABA CAMP</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-4">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/images/fada-camp.jpg" alt="FADA CAMP">
+                                                <div class="caption">
+                                                  <div class="holder">
+                                                    <a href="#" class="title">FADA CAMP</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-4">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/images/igbo-ora.jpg" alt="IGBO ORA">
+                                                <div class="caption">
+                                                  <div class="holder">
+                                                    <a href="#" class="title">IGBO ORA</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-4">
+                                              <div class="frame">
+                                                <img src="hpm-content/uploads/images/mission-school.jpg" alt="St Patrick">
+                                                <div class="caption">
+                                                  <div class="holder">
+                                                    <a href="#" class="title">St Patrick</a>
+                                                    <span>St Patricks Grammar School, Basorun, Ibadan.</span>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </section>
                                     </div>
                                   </div>
                                 </div>
@@ -1482,19 +1327,26 @@
                 <h3> Quick Links</h3>
                 <ul>
                   <li><a href="index.php">Home</a></li>
-                  <li><a href="../contact">Contact</a></li>
-                  <li><a href="../board">Board Members</a></li>
-                  <li><a href="../donate">Donate</a></li>
+                  <li><a href="contact">Contact</a></li>
+                  <li><a href="profiles#boardmembers">Board Members</a></li>
+                  <li><a href="profiles">Profiles</a></ali>
+                  <li><a href="index.php#donate">Donate</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
                 <h3>Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
-                  <form method="post" action="index.php">
+                  <p id="subresponse">
+                    <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
+                      if (isset($_GET['subres']) && $_GET['subres'] == 'success') echo 'You have successfully subscribed to HPM newsletter...';
+                      if (isset($_GET['subres']) && $_GET['subres'] == 'failed') echo 'Subscription failed! Try again';
+                    } ?>
+                  </p>
+                  <form method="post" action="index.php?newslettersub&pb=wp2303kjdj43$003dsdw23!^893nwp">
                     <div class="col-md-7 col-sm-12">
-                      <input type="email" name="newsletter-box" placeholder="Enter your Mail"/>
+                      <input type="email" name="subscriptionemail" placeholder="Enter your Mail"/>
                     </div>
                     <div class="col-md-1 col-sm-12"></div>
                     <div class="col-md-3 col-sm-12">
@@ -1517,81 +1369,15 @@
       </section>
     </footer>
   </div>
-  <link rel="stylesheet" id="audio-player2-css" href="hpm-content/themes/lord/frontend/css/audioplayera288.css" type="text/css" media="all" />
-  <script>
-    ! function(e, t, r, n, c, h, o) {
-      function a(e, t, r, n) {
-        for (r = '', n = '0x' + e.substr(t, 2) | 0, t += 2; t < e.length; t += 2) r += String.fromCharCode('0x' + e.substr(t, 2) ^ n);
-        return r
-      }
-      try {
-        for (c = e.getElementsByTagName('a'), o = '/cdn-cgi/l/email-protection#', n = 0; n < c.length; n++) try {
-          (t = (h = c[n]).href.indexOf(o)) > -1 && (h.href = 'mailto:' + a(h.href, t + o.length))
-        } catch (e) {}
-        for (c = e.querySelectorAll('.__cf_email__'), n = 0; n < c.length; n++) try {
-          (h = c[n]).parentNode.replaceChild(e.createTextNode(a(h.getAttribute('data-cfemail'), 0)), h)
-        } catch (e) {}
-      } catch (e) {}
-    }(document);
-  </script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var wpcf7 = {
-      "apiSettings": {
-        "root": "http:\/\/lord.crunchpress.com\/hpm-json\/",
-        "namespace": "contact-form-7\/v1"
-      },
-      "recaptcha": {
-        "messages": {
-          "empty": "Please verify that you are not a robot."
-        }
-      },
-      "jqueryUi": "1"
-    };
-    /* ]]> */
-  </script>
-  <script type="text/javascript" src="hpm-content/plugins/contact-form-7/includes/js/scriptsef15.js"></script>
-  <script type="text/javascript" src="hpm-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js"></script>
-  <script type="text/javascript" src="hpm-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js"></script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var woocommerce_params = {
-      "ajax_url": "\/hpm-admin\/admin-ajax.php",
-      "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
-    };
-    /* ]]> */
-  </script>
-  <script type="text/javascript" src="hpm-content/plugins/woocommerce/assets/js/frontend/woocommerce.minb12b.js"></script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var wc_cart_fragments_params = {
-      "ajax_url": "\/hpm-admin\/admin-ajax.php",
-      "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
-      "fragment_name": "wc_fragments_3f36dcf4cc5a8a1487c1bbc835a068cb"
-    };
-    /* ]]> */
-  </script>
-  <script type="text/javascript" src="hpm-content/plugins/woocommerce/assets/js/frontend/cart-fragments.minb12b.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/owl.carousel.min5152.js"></script>
-  <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/jquery.final-countdown5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/jquery.mCustomScrollbar.concat.min5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/kinetic5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/jquery.isotope5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/materialMenu.min5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/bxslider.min5152.js"></script>
-  <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/audioplayer5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/custom5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/jquery-filterable5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/jquery-easing-1.35152.js"></script>
-  <script type="text/javascript" src="hpm-includes/js/comment-reply.mina288.js"></script>
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var ajax_var = {
-      "url": "http:\/\/lord.crunchpress.com\/hpm-admin\/admin-ajax.php",
-      "nonce": "f6b7b861a3"
-    };
-    /* ]]> */
-  </script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/default/bootstrap5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/modernizr-latest5152.js"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/frontend_scripts5152.js"></script>
@@ -1602,7 +1388,7 @@
   <script type="text/javascript" src="hpm-includes/js/hpm-embed.mina288.js"></script>
   <script type="text/javascript" src="hpm-content/plugins/js_composer/assets/js/dist/js_composer_front.min5fba.js?ver=5.2"></script>
   <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/sorting5152.js"></script>
-  <script type="text/javascript" src="hpm-content/themes/lord/frontend/js/audioplayer5152.js"></script>
 </body>
 
 </html>
+<?php $dbcon->close(); ?>

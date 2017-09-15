@@ -1,3 +1,23 @@
+<?php require_once('../dbconnect.php'); ?>
+<?php
+  if (isset($_GET['newslettersub']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
+    if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+      if (isset($_POST['subscriptionemail']) && !empty($_POST['subscriptionemail'])){
+        $s = $_POST['subscriptionemail'];
+        $insert = "INSERT INTO `newsletter_user_mail` (usermail, status)
+        VALUES ('".mysqli_real_escape_string($dbcon, $s)."', '".mysqli_real_escape_string($dbcon, "on")."')";
+        if(!$res = $dbcon->query($insert)){
+          header('Location: index.php?pb=wp2303kjdj43$003dsdw23!^893nwp&subres=failed#subresponse');
+        }
+        else {
+          $dbcon->close();
+          header('Location: index.php?pb=wp2303kjdj43$003dsdw23!^893nwp&subres=success#subresponse');
+        }
+      }
+    }
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js no-svg">
 <head>
@@ -745,7 +765,7 @@
     <header id="header">
       <div class="container-fluid">
         <strong class="logo">
-          <a href="index.php">
+          <a href="../index.php">
           <img class width="190" height="55" src="../hpm-content/uploads/hpm-logo-main.png" alt="HPM">
           </a>
         </strong>
@@ -782,31 +802,9 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
-                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="../">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="pastorsd/index.php">Pastors</a></li>
-                <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-28"><a href="index.php">Events</a></li>
-                <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-29"><a href="index.php">Pages</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-630" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-630"><a href="index.php">Shop</a>
-                      <ul class="sub-menu">
-                        <li id="menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a href="shop/index.php">Products</a></li>
-                        <li id="menu-item-628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-628"><a href="cart/index.php">Cart</a></li>
-                        <li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627"><a href="checkout/index.php">Checkout</a></li>
-                        <li id="menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-626"><a href="my-account/index.php">My Account</a></li>
-                      </ul>
-                    </li>
-                    <li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="404-page/index.php">404 page</a></li>
-                    <li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href="404-page-2/index.php">404 page 2</a></li>
-                    <li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="coming-soon/index.php">Coming Soon</a></li>
-                  </ul>
-                </li>
-                <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-30"><a href="index.php">Blog</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a href="blog/index.php">Blog</a></li>
-                    <li id="menu-item-555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555"><a href="2017/03/13/the-lord-god-of-our-lifes/index.php">Blog Detail</a></li>
-                  </ul>
-                </li>
-                <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="index.php">Books</a></li>
+                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
+                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles#boardmembers">Profiles</a></li>
+                <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books" style="background: #f0311e; color: #fff;">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../library">Library</a></li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact">Contact</a></li>
                 <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="../about">About</a></li>
@@ -822,14 +820,14 @@
       <div class="container">
         <div class="inner-banner-heading">
           <h1>Shop</h1>
-          <nav class="woocommerce-breadcrumb"><a href="../index.html">Home</a>&nbsp;&#47;&nbsp;Shop</nav>
+          <nav class="woocommerce-breadcrumb"><a href="../index.php">Home</a>&nbsp;&#47;&nbsp;Shop</nav>
         </div>
       </div>
     </div>
 
     <section class="container" id="main-woo">
       <div class="products-display-loop">
-        <div class="woocommerce-message"><a href="../cart/index.html" class="button wc-forward">View cart</a> &ldquo;Happy Ninja&rdquo; has been added to your cart.</div>
+        <div class="woocommerce-message"><a href="../cart/index.php" class="button wc-forward">View cart</a> &ldquo;Happy Ninja&rdquo; has been added to your cart.</div>
         <p class="woocommerce-result-count">
           Showing 1&ndash;10 of 23 results</p>
         <form class="woocommerce-ordering" method="get">
@@ -881,20 +879,27 @@
               <div class="widget box-1 widget-listed">
                 <h3> Quick Links</h3>
                 <ul>
-                  <li><a href="index.php">Home</a></li>
+                  <li><a href="../index.php">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="../board">Board Members</a></li>
-                  <li><a href="../donate">Donate</a></li>
+                  <li><a href="../profiles#boardmembers">Board Members</a></li>
+                  <li><a href="../profiles">Profiles</a></ali>
+                  <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
                 <h3>Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
-                  <form method="post" action="index.php">
+                  <p id="subresponse">
+                    <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
+                      if (isset($_GET['subres']) && $_GET['subres'] == 'success') echo 'You have successfully subscribed to HPM newsletter...';
+                      if (isset($_GET['subres']) && $_GET['subres'] == 'failed') echo 'Subscription failed! Try again';
+                    } ?>
+                  </p>
+                  <form method="post" action="index.php?newslettersub&pb=wp2303kjdj43$003dsdw23!^893nwp">
                     <div class="col-md-7 col-sm-12">
-                      <input type="email" name="newsletter-box" placeholder="Enter your Mail"/>
+                      <input type="email" name="subscriptionemail" placeholder="Enter your Mail"/>
                     </div>
                     <div class="col-md-1 col-sm-12"></div>
                     <div class="col-md-3 col-sm-12">
@@ -909,7 +914,7 @@
       </section>
       <section class="footer-section-2">
         <div class="container">
-          <a class="ft-logo" title="HPM" href="index.php">
+          <a class="ft-logo" title="HPM" href="../">
             <img width="190" height="55" src="../hpm-content/uploads/hpm-logo-bottom.png" alt="HPM"/>
           </a>
           <strong class="copyrights"><Copyright> (c) 2017 Copyright HPM All Rights Reserved.</Copyright></strong>
@@ -1003,3 +1008,4 @@
 </body>
 
 </html>
+<?php $dbcon->close(); ?>

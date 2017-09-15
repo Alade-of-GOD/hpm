@@ -21,32 +21,36 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js no-svg">
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="description" content="His Praise Ministries Incorporated">
+  <meta name="description" content="HPM">
+  <meta name="keywords" content="HPM, His Praise Ministries Incorporated, His Praise Ministries Inc.">
+  <meta name="author" content="Jesusboythatcodes">
+  <meta name="author" content="PoG">
   <link rel="shortcut icon" href="../hpm-content/uploads/favicon.png" />
-  <title>Contact His Praise Ministries</title>
+  <title>His Praise Ministry</title>
   <link rel="stylesheet" id="layerslider-css" href="../hpm-content/plugins/LayerSlider/static/layerslider/css/layerslideradc6.css?ver=6.5.5" type="text/css" media="all" />
-  <link rel="stylesheet" id="contact-form-7-css" href="../hpm-content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8" type="text/css" media="all" />
-  <link rel="stylesheet" id="jquery-ui-css" href="../hpm-content/plugins/wp-fullcalendar/includes/css/jquery-ui/eggplant/jquery-ui.min62ea.css?ver=1.2" type="text/css" media="all" />
-  <link rel="stylesheet" id="jquery-ui-theme-css" href="../hpm-content/plugins/wp-fullcalendar/includes/css/jquery-ui/eggplant/theme62ea.css?ver=1.2" type="text/css" media="all" />
-  <link rel="stylesheet" id="default-style-css" href="../hpm-content/themes/lord/stylea288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="cp-mCustomScrollbar-css" href="../hpm-content/themes/lord/frontend/css/jquery.mCustomScrollbara288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="cp-widgets-css-css" href="../hpm-content/themes/lord/frontend/css/lord_widgetsa288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="responsive-css-css" href="../hpm-content/themes/lord/frontend/css/responsivea288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="owl-css-css" href="../hpm-content/themes/lord/frontend/css/owl.carousela288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="svg-css-css" href="../hpm-content/themes/lord/frontend/css/iconmoona288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="cp-lord-csmenu-css" href="../hpm-content/themes/lord/frontend/css/mmenu.mina288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="law-bx-slider-css-css" href="../hpm-content/themes/lord/frontend/css/jquery.bxslidera288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="cp-bootstrap-css" href="../hpm-content/themes/lord/frontend/css/bootstrapa288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="lord-color-css" href="../hpm-content/themes/lord/frontend/css/colora288.css?ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="cp-wp-commerce-css" href="../hpm-content/themes/lord/frontend/css/wp-commercea288.css?ver=4.8.1" type="text/css" media="all" />
+  <link rel="stylesheet" id="default-style-css" href="../hpm-content/themes/lord/stylea288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-mCustomScrollbar-css" href="../hpm-content/themes/lord/frontend/css/jquery.mCustomScrollbara288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-widgets-css-css" href="../hpm-content/themes/lord/frontend/css/lord_widgetsa288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="responsive-css-css" href="../hpm-content/themes/lord/frontend/css/responsivea288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="owl-css-css" href="../hpm-content/themes/lord/frontend/css/owl.carousela288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-timecircles-css" href="../hpm-content/themes/lord/frontend/shortcodes/timecirclesa288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="svg-css-css" href="../hpm-content/themes/lord/frontend/css/iconmoona288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-countdown-css" href="../hpm-content/themes/lord/frontend/css/jquery.countdowna288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-lord-csmenu-css" href="../hpm-content/themes/lord/frontend/css/mmenu.mina288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="law-bx-slider-css-css" href="../hpm-content/themes/lord/frontend/css/jquery.bxslidera288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-bootstrap-css" href="../hpm-content/themes/lord/frontend/css/bootstrapa288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="lord-color-css" href="../hpm-content/themes/lord/frontend/css/colora288.css" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-../hpm-commerce-css" href="../hpm-content/themes/lord/frontend/css/../hpm-commercea288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="font-awesome-css" href="../hpm-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min5fba.css?ver=5.2" type="text/css" media="all" />
-  <link rel="stylesheet" id="cp-bx-slider-css" href="../hpm-content/themes/lord/frontend/css/jquery.bxslidera288.css?ver=4.8.1" type="text/css" media="all" />
+  <link rel="stylesheet" id="cp-bx-slider-css" href="../hpm-content/themes/lord/frontend/css/jquery.bxslidera288.css" type="text/css" media="all" />
   <link rel="stylesheet" id="googleFonts-css" href="http://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin-ext%2Ccyrillic%2Clatin%2Cgreek%2Ccyrillic-ext%2Cvietnamese%2Cgreek-ext&amp;ver=4.8.1" type="text/css" media="all" />
   <link rel="stylesheet" id="googleFonts-heading-css" href="http://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin-ext%2Ccyrillic%2Clatin%2Cgreek%2Ccyrillic-ext%2Cvietnamese%2Cgreek-ext&amp;ver=4.8.1" type="text/css" media="all" />
   <link rel="stylesheet" id="menu-googleFonts-heading-css" href="http://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin-ext%2Ccyrillic%2Clatin%2Cgreek%2Ccyrillic-ext%2Cvietnamese%2Cgreek-ext&amp;ver=4.8.1" type="text/css" media="all" />
-  <link rel="stylesheet" id="custom-style-css" href="../hpm-content/themes/lord/frontend/css/stylea288.css?ver=4.8.1" type="text/css" media="all" />
+  <link rel="stylesheet" id="custom-style-css" href="../hpm-content/themes/lord/frontend/css/stylea288.css" type="text/css" media="all" />
   <style id="custom-style-inline-css" type="text/css">
     .page_content {
       padding: 80px 0 !important;
@@ -54,13 +58,18 @@
   </style>
   <link rel="stylesheet" id="js_composer_front-css" href="../hpm-content/plugins/js_composer/assets/css/js_composer.min5fba.css?ver=5.2" type="text/css" media="all" />
   <link rel="stylesheet" id="jquery-ui-smoothness-css" href="../hpm-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.mine899.css?ver=1.11.4" type="text/css" media="screen" />
+  <script type="text/javascript" data-cfasync="false" src="../hpm-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0"></script>
+  <script type="text/javascript" src="../hpm-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
+  <script type="text/javascript" data-cfasync="false" src="../hpm-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jqueryadc6.js?ver=6.5.5"></script>
+  <script type="text/javascript" data-cfasync="false" src="../hpm-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsadc6.js?ver=6.5.5"></script>
   <script type="text/javascript">
     /* <![CDATA[ */
-    var LS_Meta = {
-      "v": "6.5.5"
+    var EM = {
     };
     /* ]]> */
   </script>
+  <script type="text/javascript" src="../hpm-content/plugins/events-manager/includes/js/events-managere23c.js"></script>
+  <script type="text/javascript" src="../hpm-content/themes/lord/frontend/images/indexa288.html?ver=4.8.1"></script>
   <script type="text/javascript" data-cfasync="false" src="../hpm-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
@@ -72,25 +81,110 @@
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/sortable.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/datepicker.mine899.js?ver=1.11.4"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function(jQuery) {
+      jQuery.datepicker.setDefaults({
+        "closeText": "Close",
+        "currentText": "Today",
+        "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "nextText": "Next",
+        "prevText": "Previous",
+        "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+        "dateFormat": "MM d, yy",
+        "firstDay": 1,
+        "isRTL": false
+      });
+    });
+  </script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/menu.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/wp-a11y.mina288.js?ver=4.8.1"></script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var uiAutocompleteL10n = {
+      "noResults": "No results found.",
+      "oneResult": "1 result found. Use up and down arrow keys to navigate.",
+      "manyResults": "%d results found. Use up and down arrow keys to navigate.",
+      "itemSelected": "Item selected."
+    };
+    /* ]]> */
+  </script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/autocomplete.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/resizable.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/draggable.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/button.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/dialog.mine899.js?ver=1.11.4"></script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var EM = {
+      "ajaxurl": "http:\/\/lord.crunchpress.com\/wp-admin\/admin-ajax.php",
+      "locationajaxurl": "http:\/\/lord.crunchpress.com\/wp-admin\/admin-ajax.php?action=locations_search",
+      "firstDay": "1",
+      "locale": "en",
+      "dateFormat": "dd\/mm\/yy",
+      "ui_css": "http:\/\/lord.crunchpress.com\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css",
+      "show24hours": "0",
+      "is_ssl": "",
+      "google_maps_api": " AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM",
+      "bookingInProgress": "Please wait while the booking is being submitted.",
+      "tickets_save": "Save Ticket",
+      "bookingajaxurl": "http:\/\/lord.crunchpress.com\/wp-admin\/admin-ajax.php",
+      "bookings_export_save": "Export Bookings",
+      "bookings_settings_save": "Save Settings",
+      "booking_delete": "Are you sure you want to delete?",
+      "booking_offset": "30",
+      "bb_full": "Sold Out",
+      "bb_book": "Book Now",
+      "bb_booking": "Booking...",
+      "bb_booked": "Booking Submitted",
+      "bb_error": "Booking Error. Try again?",
+      "bb_cancel": "Cancel",
+      "bb_canceling": "Canceling...",
+      "bb_cancelled": "Cancelled",
+      "bb_cancel_error": "Cancellation Error. Try again?",
+      "txt_search": "Search",
+      "txt_searching": "Searching...",
+      "txt_loading": "Loading..."
+    };
+    /* ]]> */
+  </script>
   <script type="text/javascript" src="../hpm-content/plugins/events-manager/includes/js/events-managere23c.js?ver=5.7"></script>
-  <script type="text/javascript" src="../hpm-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minb12b.js?ver=3.1.1"></script>
   <script type="text/javascript" src="../hpm-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart5fba.js?ver=5.2"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/selectmenu.mine899.js?ver=1.11.4"></script>
-  <script type="text/javascript" src="../hpm-content/plugins/wp-fullcalendar/includes/js/main62ea.js?ver=1.2"></script>
-  <script type="text/javascript" src="../hpm-content/themes/lord/frontend/images/indexa288.html?ver=4.8.1"></script>
   <script type="text/javascript">
-    var ajaxurl = '../hpm-admin/admin-ajax.html';
+    /* <![CDATA[ */
+    var WPFC = {
+      "ajaxurl": "http:\/\/lord.crunchpress.com\/wp-admin\/admin-ajax.php",
+      "firstDay": "1",
+      "wpfc_theme": "1",
+      "wpfc_limit": "3",
+      "wpfc_limit_txt": "more ...",
+      "timeFormat": "h(:mm)A",
+      "defaultView": "month",
+      "weekends": "true",
+      "header": {
+        "left": "prev,next today",
+        "center": "title",
+        "right": "month,basicWeek,basicDay"
+      },
+      "wpfc_qtips": "1",
+      "wpfc_qtips_classes": "ui-tooltip-blue",
+      "wpfc_qtips_my": "top center",
+      "wpfc_qtips_at": "bottom center"
+    };
+    /* ]]> */
   </script>
-  <script type="text/JavaScript">
-    var ajaxurl = '../hpm-admin/admin-ajax.html'; var directory_url = '../hpm-content/themes/lord';
+  <script type="text/javascript" src="../hpm-content/plugins/wp-fullcalendar/includes/js/main62ea.js?ver=1.2"></script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var object_name = {
+      "templateUrl": "http:\/\/lord.crunchpress.com\/wp-content\/themes\/lord\/frontend\/images"
+    };
+    /* ]]> */
   </script>
+  <script type="text/javascript" src="../hpm-content/themes/lord/frontend/images/indexa288.html?ver=4.8.1"></script>
   <style type="text/css">
     body,
     .main-content {
@@ -205,8 +299,8 @@
     .theme-style-1 h4,
     .theme-style-1 h5,
     .theme-style-1 h6,
-    .cp_job_list .rp4wp-related-job_listing>ul li.job_listing a div.position h3,
-    .cp_job_list .rp4wp-related-job_listing>ul li.no_job_listings_found a div.position h3,
+    .cp_job_list .rp4../hpm-related-job_listing>ul li.job_listing a div.position h3,
+    .cp_job_list .rp4../hpm-related-job_listing>ul li.no_job_listings_found a div.position h3,
     .cp_job_list ul.job_listings li.job_listing a div.position h3,
     .cp_job_list ul.job_listings li.no_job_listings_found a div.position h3,
     .resumes-section ul.resumes li.no_resumes_found a div.candidate-column h3,
@@ -238,7 +332,7 @@
 
 
 
-    ::-moz-selection {
+     ::-moz-selection {
 
       background: #fa7603;
       /* Firefox */
@@ -327,12 +421,12 @@
     #footer .box ul li a:hover,
     .btn-participate,
     .em-booking-buttons input#em-booking-submit,
-    .em-booking-login #em_wp-submit,
+    .em-booking-login #em_../hpm-submit,
     .page-numbers.current,
     .cp-nav-logo-bar .navbar-default .navbar-nav>li>a::before,
     .cp-pagination .pagination .page-numbers.current,
     .cp-pagination .pagination .page-numbers:hover,
-    .login-submit #wp-submit,
+    .login-submit #../hpm-submit,
     .cp-signup-form input[type="submit"],
     .page .wpcf7 .wpcf7-form-control.wpcf7-submit,
     .page .wpcf7 .wpcf7-form-control.wpcf7-submit,
@@ -552,7 +646,7 @@
     #signin .modal-content .btn-style,
     .modal-dialog.modal-sm #sing-up .btn-style,
     .full-fixture #booking_form #em-booking-submit,
-    .full-fixture #booking_form #em_wp-submit,
+    .full-fixture #booking_form #em_../hpm-submit,
     .btn-hover,
     .btn-dark-hover,
     #dbem-bookings-table thead,
@@ -751,21 +845,74 @@
     }
 
     .cp-inner-banner {
-      background-image: url(http://lord.crunchpress.com/wp-content/themes/lord/images/inner-bg-img.png)
+      background-image: url(../hpm-content/themes/lord/images/inner-bg-img.png)
     }
-  </style> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-  <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-  <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://lord.crunchpress.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
-<script type='text/javascript' id='1qa2ws' charset='utf-8' src='../../10.71.184.6_8080/www/default/base.js'></script>
+  </style>
+  <style type="text/css" data-type="vc_custom-css">
+    .recent-sermons.sermons-section {
+      padding: 0;
+      margin: -50px 0 0 0;
+      background: #ffffff;
+    }
 
-<body id="home1" class="page-template-default page page-id-169 lord_full_width inner_page_cp  theme-style-1 wpb-js-composer js-comp-ver-5.2 vc_responsive">
+    .sermons-section.recent-sermons .round-box {
+      background: #ffffff;
+    }
 
+    #vevent .heading-center h2 {
+      color: #fff;
+    }
+
+    .our-pastore {
+      padding: 0;
+    }
+
+    .product-detail-slider-2 {
+      margin: -80px 0 0 0;
+    }
+  </style>
+  <style type="text/css" data-type="vc_shortcodes-custom-css">
+    .vc_custom_1489650040546 {
+      background-color: #ffffff !important;
+    }
+
+    .vc_custom_1503914414813 {
+      background-image: url(../hpm-content/uploads/2017/01/event-bg-new9b2c.jpg?id=643) !important;
+    }
+
+    .vc_custom_1489663345233 {
+      background-color: #f1f1f1 !important;
+    }
+
+    .vc_custom_1503914299767 {
+      padding-top: 40px !important;
+      padding-bottom: 80px !important;
+      background: #000000 url(http://lord.crunchpress.com/../hpm-content/uploads/2017/01/donate-bg.png?id=659) !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+
+    .vc_custom_1489736882041 {
+      background-color: #f1f1f1 !important;
+    }
+
+    .vc_custom_1489993504505 {
+      margin-top: -40px !important;
+      background-color: #f1f1f1 !important;
+    }
+
+    .vc_custom_1489998661418 {
+      background-color: #f1f1f1 !important;
+    }
+  </style>
+</head>
+<body id="home1" class="home page-template-default page page-id-45 lord_full_width    theme-style-1 wpb-js-composer js-comp-ver-5.2 vc_responsive">
   <div id="wrapper">
-
     <header id="header">
       <div class="container-fluid">
         <strong class="logo">
-          <a href="../index.php">
+          <a href="index.php">
           <img class width="190" height="55" src="../hpm-content/uploads/hpm-logo-main.png" alt="HPM">
           </a>
         </strong>
@@ -802,11 +949,11 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
-                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles#boardmembers">Profiles</a></li>
+                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="../">Home</a></li>
+                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles" style="background: #f0311e; color: #fff;">Profiles</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../library">Library</a></li>
-                <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact" style="background: #f0311e; color: #fff;">Contact</a></li>
+                <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact">Contact</a></li>
                 <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="../about">About</a></li>
               </ul>
             </div>
@@ -816,118 +963,355 @@
     </header>
     <div id="cp-slide-search" class="cp_side-search">
     </div>
-
-
     <div id="inner-banner">
       <div class="container">
         <div class="inner-banner-heading">
-          <h1>Contact </h1>
+          <h1>Profiles</h1>
           <ol class="breadcrumb">
-            <li class><a href="../index.php">Home</a> </li>
-            <li class="current">Contact</li>
+            <li class><a href="../">Home</a> </li>
           </ol>
         </div>
       </div>
     </div>
 
     <div id="main">
-      <div class="container">
-        <div class>
-
-          <div class="main-content margin-top-bottom-cp">
-            <div class="page_content">
-              <div>
-                <div class="row">
-                  <div id="block_content_first" class="col-md-12">
-                    <div>
-                      <div class="row">
-                        <div class>
-                          <div id="post-169" class="post-169 page type-page status-publish hentry">
-                            <a href="index.php"></a>
-                            <div class="entry-content-cp">
-                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
-                                <section class="contact-page vc_col-sm-12">
-                                  <div class="map-box">
-                                    <div id="contact_map" class="map_canvas active">
-                                    </div>
-                                    <div class="caption">
-                                      <div id="messageresponse">
-                                        <?php
-                                          if (isset($_GET['error']) && !empty($_GET['error'])){
-                                            switch ($_GET['error']) {
-                                              case '1':
-                                                echo "One or more fields were empty";
-                                                break;
-                                              case '2':
-                                                echo "Error processing the form";
-                                                break;
-                                              case '3':
-                                                echo "Mail was not processed";
-                                                break;
-                                              case '4':
-                                                echo "Message sent successfully";
-                                                break;
-                                              case '5':
-                                                echo "Mail could not be sent, please try again";
-                                                break;
-                                              default:
-                                                # code...
-                                                break;
-                                            }
-                                          }
-                                        ?>
-                                      </div>
-                                      <h3> Send Us a Message</h3>
-                                      <div role="form" class="wpcf7" id="wpcf7-f408-p169-o1" lang="en-US" dir="ltr">
-                                        <div class="screen-reader-response"></div>
-                                        <form action="drive.php?val=wpcf7f408-ifp169-o1" method="post" class="wpcf7-form">
-                                          <div class="col-md-6 col-sm-4">
-                                            <span class="wpcf7-form-control-wrap text-931"><input type="text" name="personName" size="40" class="wpcf7-form-control wpcf7-text" aria-required="true" aria-invalid="false" placeholder="Name*" required/></span>
-                                          </div>
-                                          <div class="col-md-6 col-sm-4">
-                                            <span class="wpcf7-form-control-wrap email-212"><input type="email" name="personMail" size="40" class="wpcf7-form-control wpcf7-text" aria-required="true" aria-invalid="false" placeholder="Email*" required/></span>
-                                          </div>
-                                          <div class="col-md-12 col-sm-4">
-                                            <span class="wpcf7-form-control-wrap text-812"><input type="text" name="personSubject" size="40" class="wpcf7-form-control wpcf7-text" aria-required="true" aria-invalid="false" placeholder="Subject*" required/></span>
-                                          </div>
-                                          <div class="col-md-12 col-sm-12">
-                                            <span class="wpcf7-form-control-wrap textarea-531"><textarea name="personMessage" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-required="true" aria-invalid="false" placeholder="Your Message" required></textarea></span>
-                                          </div>
-                                          <div class="col-md-12">
-                                            <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" />
-                                          </div>
-                                          <div class="wpcf7-response-output wpcf7-display-none"></div>
-                                        </form>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </section>
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                  <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.3854268370887!2d3.9277551144830616!3d7.422526994644826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ed34ef332b57%3A0x6b26db9d65f8922c!2sHis+Praise+Ministries+Inc.!5e0!3m2!1sen!2s!4v1505303511301" frameborder="0" style="border:0" allowfullscreen class="vc_col-sm-12" style="min-width: 450px;" height="750px;"></iframe>
-                                      <div class="vc_empty_space" style="height: 80px">
-                                        <span class="vc_empty_space_inner"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="vc_row-full-width vc_clearfix"></div>
-                            </div>
-                          </div>
-                          <div class="comment-box"></div>
-                        </div>
-                      </div>
-                    </div>
+      <div id="boardmembers">
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>REV. (MRS.) E. TEJU ONI</h3>
+                    <span>President</span>
+                    <strong class="title">Biography</strong>
+                    <p>REV. (MRS.) TEJU ONI, B.A French, University of Ife, M.Ed. Guidance and Counseling, University of Ibadan, is the President of His Praise Ministry Inc., a Family Ministry based in Ibadan, Nigeria. Over the years, since she pulled out of her lecturing job to answer God's call into a full-time ministry, she has ministered effectively in many churches, Christian meetings and campus Fellowships of various tertiary institutions in Nigeria. Internationally, Rev. Teju Oni has preached the Word in many States in the USA, as well as in many churches in the United Kingdom. By God's grace, she has written many books, a large number of which have been distributed in many countries, for the strengthening of the family, youths, and the Church at large. She is married to Deacon Rotimi Oni. They are blessed with biological children as well as a host of others in the Body of Christ.</p>
+                    <strong class="name" style="font-size: 25px;">Some of Rev. (Mrs.) Teju Oni’s books include:</strong>
+                    <ul>
+                      <li>Daughters of Zion…making their marriage work</li>
+                      <li>I am Your Friend</li>
+                      <li>There’s a Season. When to get Engaged, and How</li>
+                      <li>A Marvellous Gift from a Lover</li>
+                      <li>Abigail, Every Woman’s Path to Greatness</li>
+                      <li>Pot of Treasures for a Joyous and Fulfilled Family Life (Volume 1)</li>
+                      <li>Pot of Treasures for a Joyous and Fulfilled Family Life (Volume 2)</li>
+                      <li>Maximizing That Gift</li>
+                      <li>Dare to be good…what next?</li>
+                      <li>Attaining Your Distinguished Position-in God’s programme</li>
+                      <li>Love Bug Bites…. How do I handle this?</li>
+                    </ul>
                   </div>
                 </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../about/images/teju.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                </div>
               </div>
-            </div>
+            </section>
           </div>
-        </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Very Rev. Dr. Mike Oye</h3>
+                    <span>Phd</span>
+                    <strong class="title">Biography</strong>
+                    <p>One of the pillars of Pentecostalism  and charismatic movement in Nigeria and Africa.  Very Rev Dr. Mike Oye, an ordained minister in the Methodist Church Nigeria, began as a travelling secretary of the Scripture Union (Nigeria), evangelizing and establishing Christian groups among youths in high schools and tertiary institutions, in August 1966.  Over the years, he has carried his highly effective Christian ministry along with an impacting and successful academic career in tertiary institutions.  A recipient of many awards, Very Revd Mike Oye got his first Ph.D in Agric Extension and rural Sociology, 1992 from OAU Nigeria; and the second Ph.D from Traditional Naturopathy, 2011 from Clayton College of Natural Health, Birmingham, AL.  at present, he is the Chairman or a member of Board of trustee of many Churches and Para-church ministries locally and internationally.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/mike-oye.jpg" alt="Mike Oye"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Deacon A. Rotimi Oni</h3>
+                    <span>Secretary</span>
+                    <strong class="title">Biography</strong>
+                    <p>A devoted worker in the church of Christ, who has served in various capacities among the Christian ministries over the years.  Deacon A.R Oni holds a bachelor’s degree in Pharmacy, University of Ife and, a Master’s degree in Pharmaceutics & Pharmaceutical technology from the University of Ibadan.  A former Sunday school Supritendent in his home church, he is  also a member of Board of trustees of several Para-church ministries, and has also served as Publicity Secretary, Pharmaceutical Society of Nigeria, Oyo State; President, old students’ association of Bishop Phillips’ Academy, Ibadan.  A onetime President, Gospel Group Inc. Nigeria.  He is presently a serving Deacon at his home Church, while he and his wife, Teju Oni, work  tirelessly and assiduously in the Lord’s Vineyard at His Praise Ministries Inc.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/rotimi_oni.jpg" alt="Rotimi Oni"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>REV DEMOLA FALADE</h3>
+                    <span>CHAIRMAN</span> <strong class="title">Biography</strong>
+                    <p>A steadfast believer who has served fervently for years in various capacities in the Church, as well as on the Board of several Para-Church ministries, Rev. E.A Falade, one time Head of Department, Estate Management, The Polytechnic Ibadan, is a retired Baptist Pastor.  He is the immediate pastor of El-Shaddai Baptist Church Agbowo-Ibadan.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/demola-falade.jpg" alt="CHAIRMAN"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Deacon (Prof.)  Folasegun Dawodu</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>Is a child of God, a Sunday school Teacher and has served as a Baptist Deacon for about a decade in Agbowo Baptist Church (Now El-shaddai Baptist Church) where he previously attended.  He is currently a registered member of Oluyole Metropolitan Baptist Church, Ibadan.  He is committed to teaching God’s word and mission.  He is also a seasoned Counselor and is dedicated to the physical and spiritual development of the people of God.  He is presently the Patron of the Youth Fellowship, Ona-Iye Baptist Association (Ibadan Baptist Conference, Nigeria).  Prof. Folasegun Dawodu is currently a Professor at the University of Ibadan, Ibadan, Oyo State.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/folasegun-dawodu.jpg" alt="Rotimi Oni"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Deacon A. Rotimi Oni</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>A devoted worker in the church of Christ, who has served in various capacities among the Christian ministries over the years.  Deacon A.R Oni holds a bachelor’s degree in Pharmacy, University of Ife and, a Master’s degree in Pharmaceutics & Pharmaceutical technology from the University of Ibadan.  A former Sunday school Supritendent in his home church, he is  also a member of Board of trustees of several Para-church ministries, and has also served as Publicity Secretary, Pharmaceutical Society of Nigeria, Oyo State; President, old students’ association of Bishop Phillips’ Academy, Ibadan.  A onetime President, Gospel Group Inc. Nigeria.  He is presently a serving Deacon at his home Church, while he and his wife, Teju Oni, work  tirelessly and assiduously in the Lord’s Vineyard at His Praise Ministries Inc.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/rotimi_oni.jpg" alt="Rotimi Oni"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Dr. (Mrs) Modupe Dawodu</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>She is a child of God who has been a Sunday school Teacher for over three decades in the various Baptist Churches she had attended.  She pioneered as Sunday School Superintendent for Five years at Agbowo Baptist Church, Ibadan (Now El-Shaddai Baptist Church).  She is currently a registered member of Oluyole Metropolitan Baptist Church, Ibadan.  She is committed to teaching God’s word, evangelism and mission.  She is also a seasoned Counselor and is dedicated to the physical and spiritual development of the people of God.  Dr (Mrs.) Modupe Dawodu is currently an Associate Professor at Bowen University, Iwo, Osun State.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/modupe-dawodu.jpg" alt="M Dawodu"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Deacon Paul O. Ajayi</h3>
+                    <span>Advisory Board Secretary</span>
+                    <strong class="title">Biography</strong>
+                    <p>A dedicated serving Deacon in his church and a teacher,  Dcn. P. O Ajayi  is currently the Principal and a Co-proprietor at Maverick College, Ibadan.  He holds first and second degrees in Chemistry Education and Educational evaluation respectively.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/paul-ajayi.jpg" alt="Deacon Paul O. Ajayi- SECRETARY"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>MR. OLAWUYI OLADIMEJI A.</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>A House-fellowship minister who is also actively involved in the youth ministry of his home Church, “Dimeji” Olawuyi is a man of many parts.  He is a business man who co founded and runs 3 different companies – Dimlaw Net Services, Smartminds Professional Services and AIRDEF which are into Water Engineering, ICT and Agric sectors respectively.  He is the current General Chairman of the Landlords Association of his ward.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/olawuyi-oladimeji.jpg" alt="MR. OLAWUYI OLADIMEJI A."></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>MRS. OLAWUYI YETUNDE O.</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>A Teenage Cordinator in her home Church and a worship team member.  Yetunde, an experienced banker with First Bank of Nigeria voluntarily resigned after many years of service to focus on teaching and mentoring Children and Youths.  She is currently a lecturer at Bowen University, Iwo-Osun State.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/olawuyi-yetunde.jpg" alt="MRS. OLAWUYI YETUNDE O."></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>BARRISTER OYEBOLA ILORI AYOADE</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>Barr. Bola Ilori is a Chorister and a member of her Church Committee.  A practicing legal practitioner and a Senior partner in her Chamber at #74 Fajuyi Road, Adamasingba Ibadan, Oyo State of Nigeria.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/ilori-ayoade.jpg" alt="BARRISTER OYEBOLA ILORI AYOADE"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>PASTOR FEMI ADEKUNLE</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>A theologian and the set man of Eagles Prayer Ministries, Samonda Ibadan.  He leads a solution and service based prayer ministry.  Currently, Pastor Adekunle is pre-occupied for prayers mobilization and revival in the body of Christ.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/femi-adekunle.jpg" alt="PASTOR FEMI ADEKUNLE"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>MRS OLABISI ADEKUNLE</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>She is a Children evangelist and welfare minister working in the Special education Department at the University of Ibadan as a Clinician.  Mrs. Adekunle is married to the set person of Eagles Prayer Ministries.  They are blessed with children.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/olabisi-adekunle.jpg" alt="MRS OLABISI ADEKUNLE"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Mr Oladapo Adetula</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>was born on August 14th 1955 in Ondo State. A product of Christs School,Ado-Ekiti and holds a bachelors and a Masters degree in Pharmacy from University of Ife,Ile- Ife. Presently practices as a registered pharmacist in Florida, US. Married with children</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/oladapo-adetula.jpg" alt="Mr Oladapo Adetula"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Bolajoko T. Adesina</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>Bolajoko (Bola) Adesina, born on June 26, 1961, is a high school teacher with over 30 years experience. She is a qualified English and Special Education teacher with two separate Master's degrees in these areas from the University of New South Wales, Sydney and the University of Sydney, Australia. She has taught in Nigeria, Australia and USA (Los Angeles County Schools). She has particular interests in students with emotional disturbance, disruptive behaviours, intellectual disabilities and autism spectrum disorders.  Bola and her husband, Soji, are members of the Hope FM103.2 radio-the biggest Christian radio station in Australia. She is also an experienced Christian administrator - having served in different capacities within the church and para-church organizations.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/bolajoko-adesina.jpg" alt="Bolajoko T. Adesina"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section class="pastore-detail">
+          <div id="post-306" class="col-md-12">
+            <section class="pastore-detail-section-1">
+              <div class="container">
+                <div class="col-md-6 col-sm-6">
+                  <div class="text-box">
+                    <h3>Adesoji A. Adesina</h3>
+                    <span>Advisory Board</span>
+                    <strong class="title">Biography</strong>
+                    <p>Adesoji (Soji) Adesina was born on April 2, 1959 and had his education from institutions in Nigeria and Canada. He is a professor of chemical engineering having taught at universities in Nigeria, Canada and Australia. He has published widely and produced about 40 doctoral graduates as well as several postdoctoral fellows in an academic career spanning over two decades. He is currently completing an advanced theological degree at Fuller Seminary, California, as well as running his own engineering consulting firm in the Los Angeles area. Soji has also served as a member of the Moderation Committee (Governing Council) for Alphacrucis College - the largest Pentecostal tertiary institution in Australia. Professionally, he is on the editorial board of major chemical engineering and catalysis journals and a Fellow of key learned societies in Australia, UK, USA and Nigeria.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="frame"><img src="../board/profile-pic/adesoji-adesina.jpg" alt="Adesoji A. Adesina"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="clear"></div>
       </div>
     </div>
+    <div class="clear"></div>
     <footer id="footer">
       <section class="broadcast-row">
         <div class="container">
@@ -936,7 +1320,6 @@
           </div>
         </div>
       </section>
-
       <section class="footer-section-1">
         <div class="container">
           <div class="row">
@@ -965,7 +1348,7 @@
                   <li><a href="../">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
                   <li><a href="../profiles#boardmembers">Board Members</a></li>
-                  <li><a href="../profiles">Profiles</a></ali>
+                  <li><a href="../profiles">Profiles</a></li>
                   <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
               </div>
@@ -1003,11 +1386,8 @@
           <strong class="copyrights"><Copyright> (c) 2017 Copyright HPM All Rights Reserved.</Copyright></strong>
         </div>
       </section>
-    </div>
-  </footer>
-
-  <link rel="stylesheet" id="audio-player2-css" href="../hpm-content/themes/lord/frontend/css/audioplayera288.css?ver=4.8.1" type="text/css" media="all" />
-  <script type="text/javascript" src="../hpm-content/plugins/contact-form-7/includes/js/scriptsef15.js?ver=4.8"></script>
+    </footer>
+  </div>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/owl.carousel.min5152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/jquery.final-countdown5152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/jquery.mCustomScrollbar.concat.min5152.js?ver=1.0"></script>
@@ -1018,6 +1398,7 @@
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/custom5152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/jquery-filterable5152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/jquery-easing-1.35152.js?ver=1.0"></script>
+  <script type="text/javascript" src="../hpm-includes/js/comment-reply.mina288.js?ver=4.8.1"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/default/bootstrap5152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/modernizr-latest5152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/frontend_scripts5152.js?ver=1.0"></script>
@@ -1025,8 +1406,8 @@
   <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/jquery-easing-1.35152.js?ver=1.0"></script>
   <script type="text/javascript" src="../hpm-includes/js/jquery/ui/spinner.mine899.js?ver=1.11.4"></script>
   <script type="text/javascript" src="../hpm-includes/js/wp-embed.mina288.js?ver=4.8.1"></script>
-  <script type="text/javascript" src="../hpm-content/plugins/js_composer/assets/js/dist/js_composer_front.min5fba.js?ver=5.2"></script>
+  <script type="text/javascript" src="../hpm-content/themes/lord/frontend/js/progress5152.js?ver=1.0"></script>
 </body>
-
 </html>
-<?php $dbcon->close(); ?>
+
+<?<?php $dbcon->close(); ?>
