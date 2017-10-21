@@ -827,9 +827,9 @@
               <strong class="copy">Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</strong>
               <div class="sidebar-social">
                 <ul>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -846,7 +846,12 @@
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles#boardmembers">Profiles</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Board Members</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../library">Library</a></li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact">Contact</a></li>
@@ -897,7 +902,7 @@
                                       <div class="wpb_text_column wpb_content_element ">
                                         <div class="wpb_wrapper">
                                           <p>His Praise Ministries Incorporated (HPM) is a non profit Christian Organisation founded in October, 1998, at Ibadan, Nigeria. It is a ministry established to foster deeply committed and meaningful interpersonal relationships between God and man in the home, church and society. To actualize its goal, the ministry’s focus is on the family and youths.</p>
-                                          <p>At present, HPM is presided over by Eniola Tejumade Oni, a.k.a Teju Oni, a steadfast woman of faith and a seasoned writer of Christian Literature in the ministry’s area of focus. She has been equipped by the Holy Spirit to minister the word of Life in the Church of God, focusing on the family and the youths.</p>
+                                          <p>At present, HPM is presided over by Rev Eniola Tejumade Oni, a.k.a Teju Oni, a steadfast woman of faith and a seasoned writer of Christian Literature in the ministry’s area of focus. She has been equipped by the Holy Spirit to minister the word of Life in the Church of God, focusing on the family and the youths.</p>
                                         </div>
                                       </div>
                                       <div class="schedule-box"> <strong class="title">Phones</strong>
@@ -995,7 +1000,7 @@
                                     </div>
                                     <div class="wpb_text_column wpb_content_element ">
                                       <div class="wpb_wrapper">
-                                        <p>The state of every society is, to a great extent reflection of the state of every family life in it. Also, God has a vested interest in the family and Christian home. Basically, every local church is a kind of gathering of the families. And of course, the Church of God universal is a conglomerate of all the local churches. Therefore, the stability of any society and the sanity of the Church depend largely on the welfare and stability of the family.</p>
+                                        <p>The state of every society is, to a great extent, a reflection of the state of every family life in it. Also, God has a vested interest in the family and Christian home. Basically, every local church is a kind of gathering of the families. And of course, the Church of God universal is a conglomerate of all the local churches. Therefore, the stability of any society and the sanity of the Church depend largely on the welfare and stability of the family.</p>
                                       </div>
                                     </div>
                                     <div class="container">
@@ -1005,7 +1010,7 @@
                                     </div>
                                     <div class="wpb_text_column wpb_content_element ">
                                       <div class="wpb_wrapper">
-                                        <p>In order to forestall or halt the devastations emanating from a broken or weak cord of love, whether between spouses; parent(s) and children, siblings or people generally, we work hard promoting love and unity. In consequence, the rich sense f belonging and worth is attained to reflect in turn in the overall well being of the church and society.</p>
+                                        <p>In order to forestall or halt the devastations emanating from a broken or weak cord of love, whether between spouses; parent(s) and children, siblings or people generally, we work hard promoting love and unity. In consequence, the rich sense of belonging and worth is attained to reflect in turn in the overall well being of the church and society.</p>
                                         <p>Resultantly, we undermine some of the principal causes of divorce, wretchedness, abuse, strife frustrations, depression, suicide attempts, premarital sex, drug addiction, loneliness, violence and sexual pervasion among others.</p>
                                       </div>
                                     </div>
@@ -1039,17 +1044,18 @@
                                         <p>We offer practical information and encouragement to parents, couples, peer groups, and singles, in order to enhance their relationships.</p>
                                         <p>
                                           <ul>
-                                            <li>We honor invitations to minister or teach the Word of God in gathering of the saints, be it at the Christian youths in higher institutions of learning.</li>
-                                            <li>With regard to their spiritual growth and relationships, we hold annual Christian programmes to teach, preach or hold seminars among the married, youths and believers at large.</li>
+                                            <!--<li>We honor invitations to minister or teach the Word of God in gathering of the saints, be it at the Christian youths in higher institutions of learning.</li>
+                                            --><li>With regard to their spiritual growth and relationships, we hold annual Christian programmes to teach, preach or hold seminars among the married, youths and believers at large.</li>
                                             <li>Relevant Christian Literature including Rev. Teju Oni’s books are made available for our associates to draw wonderful resources from.</li>
                                             <li>In addition, we put at our immediate Christian community’s disposal a well equipped library to help actualize our goals.</li>
                                             <li>Through the guidance of the Holy Spirit, we render inspiring and sustainable counsel to our friends.</li>
-                                            <li>We have a Fellowship Arm- Beracha Fellowship, where the believers in Christ gather weekly to pray and study the word of God to enhance their spiritual growth, develop their gifts and talents to serving the Lord effectively; and to prayerfully attain victory over the unrelenting onslaught against the Church.</li>
+                                            <li>We have a Fellowship Arm- Beracha Fellowship, where the believers in Christ gather regularly to pray and study the word of God to enhance their spiritual growth, develop their gifts and talents to serving the Lord effectively; and to prayerfully attain victory over the unrelenting onslaught against the Church.</li>
                                           </ul>
                                         </p>
                                         <p>Finally, as many as need a little comforting word; to those who seek an understanding heart to share the burden of the moment; and to those who long for a cheery spirit to release sunshine into the day, we throw up our arms in the love of Christ and declare wholeheartedly,
                                           <em>"Come in and be blessed!" For  we work in the fulfillment of Ephesian 4:12 "For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ."</em>
                                         </p>
+                                        <p><a href="../contact">Click here to speak with Rev</a></p>
                                       </div>
                                     </div>
                                   </div>
@@ -1362,6 +1368,52 @@
                               </div>
                               <div class="vc_row-full-width vc_clearfix"></div>
                             </div>
+                            <div class="entry-content-cp" id="evangelism">
+                              <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                      <section class="blog-section">
+                                        <div class="row">
+                                          <div class="post-box pstandard">
+                                            <div class="text-box">
+                                              <h2><a href="#">Evangelism</a></h2>
+                                              <p>In our zest to catch them early for Jesus Christ, and to impact the future leaders for God’s kingdom, a major outreach is always fixed for the single youths. However, it had to be rescheduled to January 2014 because the convenient date clashed with some other major Christian programmes in Ibadan. By God’s grace this outreach will now take place on Friday, January 24, 2014. It’s going to be an afternoon/evening powerful outreach. A lot of souls must be saved in Christ. Many youths coming up must have divine encounter with the Lord, and our fruit to abide. Amen. Also, encourage and send your single youths in town to attend. You will be pleasantly surprised by what the Lord will do.</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </section>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="entry-content-cp" id="ministration">
+                              <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                      <section class="blog-section">
+                                        <div class="row">
+                                          <div class="post-box pstandard">
+                                            <div class="text-box">
+                                              <h2><a href="#">External Ministration</a></h2>
+                                              <p>By God’s special grace, we continue to honour invitations to come up to preach, teach, and hold seminars in churches, tertiary institutions of learning, Christian fellowships in the city and in other gatherings of the saints. We have quite a number of such invitations this year. On those occasions, Rev. Teju Oni, in the strength of the Holy Spirit, stood in to minister on behalf of His Praise Ministries. Among such, we share the following:</p>
+                                              <ul>
+                                                <li>Sexual Intimacy in Christian Marriage at Excellent Christian Couples Fellowship at Joseph Ayo Babalola University.</li>
+                                                <li>Marital Challenges. Emphasis on 3 areas: Home Assault, Sexual Intimacy and Infidelity at Bodija Ashi Baptist Church. The church in Sunday morning worship. </li>
+                                                <li>You Cannot Afford to Fail Your Generation at Youth Programme. 2 days of ministering to the youths at Bodija Ashi Baptist Church.</li>
+                                              </ul>
+                                              <p>In all these places and the rest, God was highly exalted and honored, Jesus was greatly glorified and the HPM’s books enjoyed meaningful distributions. God be praised!</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </section>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                           <div class="comment-box"></div>
                         </div>
@@ -1391,7 +1443,7 @@
               <div class="widget box-1 widget_text">
                 <div class="textwidget">
                   <section class="contact-1">
-                    <h3>Contact Info</h3>
+                    <h3 style="color: #61c922">Contact Info</h3>
                     <address class="border-none">
                       <i class="fa fa-bank"></i> Address,<br/>
                       Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</p>
@@ -1407,11 +1459,11 @@
             </div>
             <div class="col-md-4 col-sm-12">
               <div class="widget box-1 widget-listed">
-                <h3> Quick Links</h3>
+                <h3 style="color: #61c922">Quick Links</h3>
                 <ul>
                   <li><a href="../">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="../profiles#boardmembers">Board Members</a></li>
+                  <li><a href="a href="../profiles/board.php"">Board Members</a></li>
                   <li><a href="../profiles">Profiles</a></ali>
                   <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
@@ -1419,7 +1471,7 @@
             </div>
             <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
-                <h3>Subscribe to our Newsletter</h3>
+                <h3 style="color: #61c922">Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
                   <p id="subresponse">
                     <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
@@ -1437,6 +1489,14 @@
                     </div>
                   </form>
                 </div>
+              </div>
+              <div class="sidebar-social">
+                <h3 style="color: #61c922">Connect with us</h3>
+                <ul>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>

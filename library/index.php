@@ -906,9 +906,9 @@
               <strong class="copy">Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</strong>
               <div class="sidebar-social">
                 <ul>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -925,9 +925,21 @@
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles#boardmembers">Profiles</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Board Members</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../library" style="background: #f0311e; color: #fff;">Library</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Extras</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../issues">Issues</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../index.php#activities&features">Activities</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../index.php#upcomingevent">Programs</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact">Contact</a></li>
                 <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="../about">About</a></li>
               </ul>
@@ -991,9 +1003,54 @@
                                           </div>
                                           <div class="post-box paudio">
                                             <div class="text-box">
+                                              <h2><a href="#">CATEGORIES of our Library Books</a></h2>
+                                              <ul class="vc_col-sm-4">
+                                                <li>Marriage</li>
+                                                <li>Family Life</li>
+                                                <li>Healing</li>
+                                                <li>Sanctification</li>
+                                                <li>Christian Life/growth</li>
+                                                <li>Fasting</li>
+                                                <li>Discipleship</li>
+                                                <li>Holiness</li>
+                                                <li>Church</li>
+                                                <li>Faith</li>
+                                                <li>Prayer</li>
+                                                <li>The Bible</li>
+                                              </ul>
+                                              <ul class="vc_col-sm-4">
+                                                <li>The Church</li>
+                                                <li>Deliverance</li>
+                                                <li>Spiritual Warfare</li>
+                                                <li>Dermonology</li>
+                                                <li>End times/Second coming</li>
+                                                <li>Biographies</li>
+                                                <li>Devotionals</li>
+                                                <li>Miracles</li>
+                                                <li>Other religions</li>
+                                                <li>God</li>
+                                                <li>Other religions</li>
+                                              </ul>
+                                              <ul class="vc_col-sm-4">
+                                                <li>Salvation</li>
+                                                <li>Confession and Service</li>
+                                                <li>Evangelism</li>
+                                                <li>Witnessing</li>
+                                                <li>Soul willing</li>
+                                                <li>God The Holy Spirit</li>
+                                                <li>Giving</li>
+                                                <li>Financial Breakthrough</li>
+                                                <li>Prosperity</li>
+                                                <li>General</li>
+                                                <li>Magazines</li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                          <div class="post-box paudio">
+                                            <div class="text-box">
                                               <h2><a href="#">Using the Library and Its Facilities</a></h2>
                                               <ul>
-                                                <li>You're free to read in within the opening hours which are between 9.00a.m and 4.00p.m on the working days. On Saturdays, however, the Library opens between 9.00a.m- 3.00p.m.</li>
+                                                <li>You're free to read in within the opening hours which are between 9.00a.m and 4.00p.m on the working days. On Saturdays, however, the Library opens between 10.00a.m - 02.00p.m.</li>
                                                 <li>The following fees are charged for the stipulated period of usage:
                                                   <ul>
                                                     <li>N50.00 per day</li>
@@ -1045,7 +1102,7 @@
               <div class="widget box-1 widget_text">
                 <div class="textwidget">
                   <section class="contact-1">
-                    <h3>Contact Info</h3>
+                    <h3 style="color: #61c922">Contact Info</h3>
                     <address class="border-none">
                       <i class="fa fa-bank"></i> Address,<br/>
                       Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</p>
@@ -1061,11 +1118,11 @@
             </div>
             <div class="col-md-4 col-sm-12">
               <div class="widget box-1 widget-listed">
-                <h3> Quick Links</h3>
+                <h3 style="color: #61c922">Quick Links</h3>
                 <ul>
                   <li><a href="../">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="../profiles#boardmembers">Board Members</a></li>
+                  <li><a href="a href="../profiles/board.php"">Board Members</a></li>
                   <li><a href="../profiles">Profiles</a></ali>
                   <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
@@ -1073,7 +1130,7 @@
             </div>
             <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
-                <h3>Subscribe to our Newsletter</h3>
+                <h3 style="color: #61c922">Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
                   <p id="subresponse">
                     <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
@@ -1091,6 +1148,14 @@
                     </div>
                   </form>
                 </div>
+              </div>
+              <div class="sidebar-social">
+                <h3 style="color: #61c922">Connect with us</h3>
+                <ul>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>

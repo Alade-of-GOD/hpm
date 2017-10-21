@@ -10,6 +10,10 @@
       $personMail = $_POST['personMail'];
       $personSubject = $_POST['personSubject'];
       $personMessage = nl2br($_POST['personMessage']);
+      $personStatus = $_POST['personStatus'];
+      $personSex = $_POST['personSex'];
+      if ($personSex == '') $personSex = 'Not Specified';
+      if ($personStatus == '') $personStatus = 'Not Specified';
       $personMessage = wordwrap($personMessage, 70);
       $to = "hispraisemin@yahoo.co.uk, micoluwafemibiz@gmail.com";
       $subject = $personSubject;
@@ -20,6 +24,8 @@
             </head>
             <body style="background-color: #f4424b; color: #fff; padding: 50px;">
               <p>'.$personMessage.'</p>
+              <p>Sex: '.$personSex.'</p>
+              <p>Status: '.$personStatus.'</p>
             </body>
           </html>
           ';

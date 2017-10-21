@@ -16,7 +16,6 @@
       }
     }
   }
-
 ?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js no-svg">
@@ -816,9 +815,9 @@
               <strong class="copy">Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</strong>
               <div class="sidebar-social">
                 <ul>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -835,9 +834,21 @@
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="index.php" style="background: #f0311e; color: #fff;">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="profiles">Profiles</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="profiles">Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="profiles/board.php">Board Members</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="books">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="library">Library</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Extras</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="issues">Issues</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="index.php#activities&features">Activities</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="index.php#upcomingevent">Programs</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="contact">Contact</a></li>
                 <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="about">About</a></li>
               </ul>
@@ -938,14 +949,14 @@
                                 </div>
                               </div>
                               <div class="vc_row-full-width vc_clearfix"></div>
-                              <!--<div id="vevent" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914414813 vc_row-has-fill vc_row-no-padding">
+                              <div id="vevent" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914414813 vc_row-has-fill vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                   <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
                                       <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
                                       <div class="heading-center">
-                                        <h2>Upcoming Activities &amp; Events</h2>
-                                        <span><b><em>we remember moments</em></b></span>
+                                        <h2>BERACHA FELLOWSHIP</h2>
+                                        <span><b><em>an enriching Godly fellowship</em></b></span>
                                       </div>
                                       <section class="our-events">
                                         <div class="container">
@@ -953,18 +964,11 @@
                                             <div class="event-col">
                                               <div class="thumb"> <img src="hpm-content/uploads/2017/03/event-img-1-171x145.jpg" alt="timeline img 652"> </div>
                                               <div class="text-box">
-                                                <strong class="date">11 <span>Feb</span></strong>
-                                                <a href="hpm-loginc94b.html?action=register&amp;redirect_to=http://lord.crunchpress.com/" class="btn-style-2">Register Now</a>
-                                                <a href="events/art-lessons-for-children-2/index.php" class="title">Art lessons for children</a>
-                                                <span>10:00 am to 10:00 am - new york stock exchange</span>
-                                                <ul class="links">
-                                                  <li><a href="locations/new-york-stock-exchange/index.php"><span class="icon-compass"></span></a></li>
-                                                  <li><a href="http://www.facebook.com/share.php?u=http://lord.crunchpress.com/"><span class="icon-share-button-outline"></span></a></li>
-                                                  <li><a href="cdn-cgi/l/email-protection.html#aacbc8c9eacfd2cbc7dac6cf84c9c5c795d9dfc8c0cfc9de97efdccfc4de8cc8c5ced397e7cfd9d9cbcdcf"><span class="icon-e-mail-envelope"></span></a></li>
-                                                </ul>
+                                                <a class="title">an enriching Godly fellowship where you will receive love and be opportune to serve.  Through the surpassing power of Jesus Christ, divine grace awaits you at BERACHA FELLOWSHIP to sing a new song</a>
+                                                <span>5:00pm every 1st and 3rd Mondays of the Month</span>
                                               </div>
                                             </div>
-                                            <div class="event-col">
+                                            <!--<div class="event-col">
                                               <div class="thumb"> <img src="hpm-content/uploads/2017/03/blog-img-3-171x145.jpg" alt="timeline img 653"> </div>
                                               <div class="text-box">
                                                 <strong class="date">11 <span>Feb</span></strong>
@@ -992,7 +996,7 @@
                                                 </ul>
                                               </div>
                                             </div>
-                                            <div class="btn-row"><a href="event-list/index.php" class="btn-see">See All events</a></div>
+                                            <div class="btn-row"><a href="event-list/index.php" class="btn-see">See All events</a></div>-->
                                           </div>
                                         </div>
                                       </section>
@@ -1001,15 +1005,15 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="vc_row-full-width vc_clearfix"></div>-->
+                              <div class="vc_row-full-width vc_clearfix"></div>
                               <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489736882041 vc_row-has-fill vc_row-no-padding">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="wpb_column vc_column_container vc_col-sm-12" id="activities&features">
                                   <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
                                       <div class="vc_empty_space" style="height: 45px"><span class="vc_empty_space_inner"></span></div>
                                       <div class="heading-center">
-                                        <h2>Activities and Features</h2>
-                                        <span><b><em>See our shop</em></b></span>
+                                        <h2>ACTIVITIES AND FEATURES</h2>
+                                        <span><b><em>His Praise Ministries</em></b></span>
                                       </div>
                                       <section class="sermons-section">
                                         <div class="container">
@@ -1054,12 +1058,36 @@
                                                 </div>
                                                 <div class="item">
                                                   <div class="our-product">
-                                                    <a href="evangelism">
+                                                    <a href="about/index.php#evangelism">
+                                                      <div class="frame">
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/teju.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Ministration" sizes="(max-width: 319px) 100vw, 319px" />
+                                                      </div>
+                                                      <div class="text-box">
+                                                        <h3><a href="about/index.php#ministration">External Ministrations</a></h3>
+                                                      </div>
+                                                    </a>
+                                                  </div>
+                                                </div>
+                                                <div class="item">
+                                                  <div class="our-product">
+                                                    <a href="about/index.php#evangelism">
+                                                      <div class="frame">
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/shop.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Bookshop" sizes="(max-width: 319px) 100vw, 319px" />
+                                                      </div>
+                                                      <div class="text-box">
+                                                        <h3><a href="books/">Bookshop</a></h3>
+                                                      </div>
+                                                    </a>
+                                                  </div>
+                                                </div>
+                                                <div class="item">
+                                                  <div class="our-product">
+                                                    <a href="about/index.php#evangelism">
                                                       <div class="frame">
                                                         <img width="319" height="325" src="hpm-content/uploads/images/evangelism.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Evangelsim" sizes="(max-width: 319px) 100vw, 319px" />
                                                       </div>
                                                       <div class="text-box">
-                                                        <h3><a href="evangelism">HPM Evangelism</a></h3>
+                                                        <h3><a href="about/index.php#evangelism">HPM Evangelism</a></h3>
                                                       </div>
                                                     </a>
                                                   </div>
@@ -1069,6 +1097,29 @@
                                           </div>
                                         </div>
                                       </section>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="vc_row-full-width vc_clearfix" id="upcomingevent"></div>
+                              <div id="vevent" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914414813 vc_row-has-fill vc_row-no-padding">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                      <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
+                                      <div class="heading-center">
+                                        <h2>UPCOMING EVENT</h2>
+                                        <span><b><em>make sure to join us</em></b></span>
+                                      </div>
+                                      <section class="our-events">
+                                        <div class="container">
+                                          <div class="col-md-12">
+                                            <?php include('upcomingevent.php'); ?>
+                                            <!--<div class="btn-row"><a href="event-list/index.php" class="btn-see">See All events</a></div>
+                                          --></div>
+                                        </div>
+                                      </section>
+                                      <div class="vc_empty_space" style="height: 90px"><span class="vc_empty_space_inner"></span></div>
                                     </div>
                                   </div>
                                 </div>
@@ -1149,6 +1200,29 @@
                                 </div>
                               </div>-->
                               <div class="vc_row-full-width vc_clearfix"></div>
+                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489998661418 vc_row-has-fill vc_row-no-padding">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                  <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                      <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
+                                      <div class="heading-center">
+                                        <h2>Books from the President</h2>
+                                        <span><b><em>View our book store</em></b></span>
+                                      </div>
+                                      <section class="home-blog">
+                                        <div class="container">
+                                          <div class="row">
+                                            <?php include_once('books/books3.php'); ?>
+                                          </div>
+                                          <div class="btn-row"><a href="books" class="btn-style-1">View All Books</a></div>
+                                        </div>
+                                      </section>
+                                      <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="vc_row-full-width vc_clearfix"></div>
                               <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1503914299767 vc_row-has-fill vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12" id="donate">
                                   <div class="vc_column-inner ">
@@ -1170,29 +1244,6 @@
                                           <div class="btn-row"><a href="index.php" class="btn-style-1">online Donetaion</a></div>-->
                                         </div>
                                       </section>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="vc_row-full-width vc_clearfix"></div>
-                              <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1489998661418 vc_row-has-fill vc_row-no-padding">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                  <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                      <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
-                                      <div class="heading-center">
-                                        <h2>Books from the President</h2>
-                                        <span><b><em>View our book store</em></b></span>
-                                      </div>
-                                      <section class="home-blog">
-                                        <div class="container">
-                                          <div class="row">
-                                            <?php include_once('books/books3.php'); ?>
-                                          </div>
-                                          <div class="btn-row"><a href="books" class="btn-style-1">View All Books</a></div>
-                                        </div>
-                                      </section>
-                                      <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div>
                                     </div>
                                   </div>
                                 </div>
@@ -1262,11 +1313,11 @@
                                             </div>
                                             <div class="col-md-3 col-sm-4">
                                               <div class="frame">
-                                                <img src="hpm-content/uploads/images/mission-school.jpg" alt="St Patrick">
+                                                <img src="hpm-content/uploads/images/bashorun-ojoo.jpg" alt="St Patrick">
                                                 <div class="caption">
                                                   <div class="holder">
-                                                    <a href="#" class="title">St Patrick</a>
-                                                    <span>St Patricks Grammar School, Basorun, Ibadan.</span>
+                                                    <a href="#" class="title">Bashorun-Ojoo High School</a>
+                                                    <span>Bashorun-Ojoo High School, Ashi-Bodija, Ibadan.</span>
                                                   </div>
                                                 </div>
                                               </div>
@@ -1308,7 +1359,7 @@
               <div class="widget box-1 widget_text">
                 <div class="textwidget">
                   <section class="contact-1">
-                    <h3>Contact Info</h3>
+                    <h3 style="color: #61c922">Contact Info</h3>
                     <address class="border-none">
                       <i class="fa fa-bank"></i> Address,<br/>
                       Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</p>
@@ -1324,11 +1375,11 @@
             </div>
             <div class="col-md-4 col-sm-12">
               <div class="widget box-1 widget-listed">
-                <h3> Quick Links</h3>
+                <h3 style="color: #61c922">Quick Links</h3>
                 <ul>
                   <li><a href="index.php">Home</a></li>
                   <li><a href="contact">Contact</a></li>
-                  <li><a href="profiles#boardmembers">Board Members</a></li>
+                  <li><a href="board.php">Board Members</a></li>
                   <li><a href="profiles">Profiles</a></ali>
                   <li><a href="index.php#donate">Donate</a></li>
                 </ul>
@@ -1336,7 +1387,7 @@
             </div>
             <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
-                <h3>Subscribe to our Newsletter</h3>
+                <h3 style="color: #61c922">Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
                   <p id="subresponse">
                     <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
@@ -1355,6 +1406,14 @@
                   </form>
                 </div>
               </div>
+              <div class="sidebar-social">
+                <h3 style="color: #61c922">Connect with us</h3>
+                <ul>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -1362,9 +1421,12 @@
       <section class="footer-section-2">
         <div class="container">
           <a class="ft-logo" title="HPM" href="index.php">
-            <img width="190" height="55" src="../hpm-content/uploads/hpm-logo-bottom.png" alt="HPM"/>
+            <img width="190" height="55" src="hpm-content/uploads/hpm-logo-bottom.png" alt="HPM"/>
           </a>
-          <strong class="copyrights"><Copyright> (c) 2017 Copyright HPM All Rights Reserved.</Copyright></strong>
+          <Copyright> (c) 2017 Copyright HPM</Copyright>
+          <strong class="copyrights">
+            <a href="">Designed by AJ</a>
+          </strong>
         </div>
       </section>
     </footer>

@@ -22,8 +22,16 @@
           <p>'.$booksum.'</p>
           <span class="price">
             <del>
-            <span class="woocommerce-Price-amount amount">
-            <span class="woocommerce-Price-currencySymbol">&#36;</span>15.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>12.00</span></ins></span>
+              <span class="woocommerce-Price-amount amount">
+                <span class="woocommerce-Price-currencySymbol"></span>
+              </span>
+            </del>
+            <ins>
+              <span class="woocommerce-Price-amount amount">
+                <span class="woocommerce-Price-currencySymbol"></span>
+              </span>
+            </ins>
+            </span>
         </a>
       </li>
       ';

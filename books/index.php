@@ -784,9 +784,9 @@
               <strong class="copy">Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</strong>
               <div class="sidebar-social">
                 <ul>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="http://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -803,9 +803,21 @@
             <div id="navbar" class="collapse navbar-collapse ">
               <ul id="nav" class="nav navbar-nav">
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
-                <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../profiles#boardmembers">Profiles</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Board Members</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books" style="background: #f0311e; color: #fff;">Books</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../library">Library</a></li>
+                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Extras</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../issues">Issues</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../index.php#activities&features">Activities</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../index.php#upcomingevent">Programs</a></li>
+                  </ul>
+                </li>
                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="../contact">Contact</a></li>
                 <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="../about">About</a></li>
               </ul>
@@ -828,6 +840,7 @@
     <section class="container" id="main-woo">
       <div class="products-display-loop">
         <div class="woocommerce-message">
+          <p>You may order for any of our books for personal spiritual upliftment or as wedding gifts, birthday anniversary presents, or for friends. Leaders are the readers. Also, remember that knowledge delivers (Prov.11:9).</p>
           <p>To purchase any of our books, kindly put a call through any of our contact lines and we would contact you immediately</p>
           <p>
             <ul style="list-style-type: none !important;">
@@ -858,7 +871,7 @@
               <div class="widget box-1 widget_text">
                 <div class="textwidget">
                   <section class="contact-1">
-                    <h3>Contact Info</h3>
+                    <h3 style="color: #61c922">Contact Info</h3>
                     <address class="border-none">
                       <i class="fa fa-bank"></i> Address,<br/>
                       Martola Street, Off Winners Way Bashorun/Ashi Exit, Ibadan, Oyo State, Nigeria.</p>
@@ -874,11 +887,11 @@
             </div>
             <div class="col-md-4 col-sm-12">
               <div class="widget box-1 widget-listed">
-                <h3> Quick Links</h3>
+                <h3 style="color: #61c922">Quick Links</h3>
                 <ul>
                   <li><a href="../index.php">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="../profiles#boardmembers">Board Members</a></li>
+                  <li><a href="a href="../profiles/board.php"">Board Members</a></li>
                   <li><a href="../profiles">Profiles</a></ali>
                   <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
@@ -886,7 +899,7 @@
             </div>
             <div class="col-md-4 col-sm-12" id="subresponse">
               <div class="widget box-1 lord_popular_post">
-                <h3>Subscribe to our Newsletter</h3>
+                <h3 style="color: #61c922">Subscribe to our Newsletter</h3>
                 <div class="cp-sidebar-content">
                   <p id="subresponse">
                     <?php if (isset($_GET['pb']) && $_GET['pb'] == 'wp2303kjdj43$003dsdw23!^893nwp'){
@@ -904,6 +917,14 @@
                     </div>
                   </form>
                 </div>
+              </div>
+              <div class="sidebar-social">
+                <h3 style="color: #61c922">Connect with us</h3>
+                <ul>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>
