@@ -1060,7 +1060,7 @@
                                                   <div class="our-product">
                                                     <a href="about/index.php#ministration">
                                                       <div class="frame">
-                                                        <img width="319" height="325" src="hpm-content/uploads/images/teju.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Ministration" sizes="(max-width: 319px) 100vw, 319px" />
+                                                        <img width="319" height="325" src="hpm-content/uploads/images/External-min.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Ministration" sizes="(max-width: 319px) 100vw, 319px" />
                                                       </div>
                                                       <div class="text-box">
                                                         <h3><a href="about/index.php#ministration">External Ministrations</a></h3>
