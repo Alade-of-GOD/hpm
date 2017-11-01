@@ -25,7 +25,7 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta name="description" content="His Praise Ministries Incorporated">
   <meta name="description" content="HPM">
-  <meta name="keywords" content="HPM, His Praise Ministries Incorporated, His Praise Ministries Inc.">
+  <meta name="keywords" content="HPM, His Praise Ministries Incorporated, His Praise Ministries Inc., His Praise Ministries">
   <meta name="author" content="Jesusboythatcodes">
   <meta name="author" content="PoG">
   <link rel="shortcut icon" href="hpm-content/uploads/favicon.png" />
@@ -816,7 +816,7 @@
               <div class="sidebar-social">
                 <ul>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.twitter.com/HispraiseM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
@@ -836,8 +836,8 @@
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="index.php" style="background: #f0311e; color: #fff;">Home</a></li>
                 <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
                   <ul class="sub-menu">
-                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="profiles">Trustees</a></li>
-                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="profiles/board.php">Board Members</a></li>
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="profiles">Board of Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="profiles/board.php">Advisory Board</a></li>
                   </ul>
                 </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="books">Books</a></li>
@@ -962,7 +962,7 @@
                                         <div class="container">
                                           <div class="col-md-12">
                                             <div class="event-col">
-                                              <div class="thumb"> <img src="hpm-content/uploads/2017/03/event-img-1-171x145.jpg" alt="timeline img 652"> </div>
+                                              <div class="thumb"> <img src="hpm-content/uploads/images/beracha.jpg" width="171" height="145" alt="timeline img 652"> </div>
                                               <div class="text-box">
                                                 <a class="title">an enriching Godly fellowship where you will receive love and be opportune to serve.  Through the surpassing power of Jesus Christ, divine grace awaits you at BERACHA FELLOWSHIP to sing a new song</a>
                                                 <span>5:00pm every 1st and 3rd Mondays of the Month</span>
@@ -1058,7 +1058,7 @@
                                                 </div>
                                                 <div class="item">
                                                   <div class="our-product">
-                                                    <a href="about/index.php#evangelism">
+                                                    <a href="about/index.php#ministration">
                                                       <div class="frame">
                                                         <img width="319" height="325" src="hpm-content/uploads/images/teju.jpg" class="attachment-319x325 size-319x325 hpm-post-image" alt="Ministration" sizes="(max-width: 319px) 100vw, 319px" />
                                                       </div>
@@ -1108,8 +1108,8 @@
                                     <div class="wpb_wrapper">
                                       <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
                                       <div class="heading-center">
-                                        <h2>UPCOMING EVENT</h2>
-                                        <span><b><em>make sure to join us</em></b></span>
+                                        <h2>UPCOMING EVENTS</h2>
+                                        <span><b><em>Be updated on all our upcoming events and make sure to be there</em></b></span>
                                       </div>
                                       <section class="our-events">
                                         <div class="container">
@@ -1379,7 +1379,7 @@
                 <ul>
                   <li><a href="index.php">Home</a></li>
                   <li><a href="contact">Contact</a></li>
-                  <li><a href="board.php">Board Members</a></li>
+                  <li><a href="profiles/board.php">Advisory Board</a></li>
                   <li><a href="profiles">Profiles</a></ali>
                   <li><a href="index.php#donate">Donate</a></li>
                 </ul>
@@ -1410,7 +1410,7 @@
                 <h3 style="color: #61c922">Connect with us</h3>
                 <ul>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.twitter.com/HispraiseM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>

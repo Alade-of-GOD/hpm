@@ -7,22 +7,24 @@
       && isset($_POST['time']) && !empty($_POST['time'])
       && isset($_FILES['cover']) && !empty($_FILES['cover'])){
 
-      $sql = "UPDATE `hpm_event`
-              SET eTitle = '".mysqli_real_escape_string($dbcon, $_POST['title'])."',
-              eVenue = '".mysqli_real_escape_string($dbcon, $_POST['venue'])."',
-              eDate = '".mysqli_real_escape_string($dbcon, $_POST['date'])."',
-              eTime = '".mysqli_real_escape_string($dbcon, $_POST['time'])."'
-              WHERE rowId = '".mysqli_real_escape_string($dbcon, $_GET['row'])."'";
-      if (!$result = $dbcon->query($sql)){
-          header('Location: http://www.hpm.otunwrites.com/admin/index.php#event?res=failed');
+      $image = $_POST['title'].$_POST['date'];
+      $f = 'hpm-content/events/'.$image;
+      if (file_exists($f)) unlink($f);
+      if (move_uploaded_file($_FILES["cover"]["tmp_name"], $f)){
+        $sql = "INSERT INTO  `hpm_event` (eTitle, eVenue, eDate, eTime, eImage)
+                VALUES ('".mysqli_real_escape_string($dbcon, $_POST['title'])."', '".mysqli_real_escape_string($dbcon, $_POST['venue'])."',
+                '".mysqli_real_escape_string($dbcon, $_POST['date'])."', '".mysqli_real_escape_string($dbcon, $_POST['time'])."',
+                '".mysqli_real_escape_string($dbcon, $image)."')";
+
+        if (!$result = $dbcon->query($sql)){
+            header('Location: http://www/admin.hispraiseministries.com/index.php?res=failed#event');
+        }
+        else{
+          header('Location: http://www/admin.hispraiseministries.com/index.php?res=success#event');
+        }
       }
       else{
-        $f = 'event.jpg';
-        if (file_exists($f)) unlink($f);
-        if (move_uploaded_file($_FILES["cover"]["tmp_name"], $f))
-          header('Location: http://www.hpm.otunwrites.com/admin/index.php#event?res=success');
-        else
-          header('Location: http://www.hpm.otunwrites.com/admin/index.php#event?res=failed');
+        header('Location: http://www/admin.hispraiseministries.com/index.php?res=failed#event');
       }
     }
   }

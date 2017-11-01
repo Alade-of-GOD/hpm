@@ -24,6 +24,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" href="../hpm-content/uploads/favicon.png" />
+  <meta name="description" content="His Praise Ministries Incorporated">
+  <meta name="description" content="HPM">
+  <meta name="keywords" content="HPM, His Praise Ministries Incorporated, His Praise Ministries Inc.">
+  <meta name="author" content="Jesusboythatcodes">
+  <meta name="author" content="PoG">
   <title>His Praise Ministry Library</title>
   <link rel="stylesheet" id="layerslider-css" href="../hpm-content/plugins/LayerSlider/static/layerslider/css/layerslideradc6.css?ver=6.5.5" type="text/css" media="all" />
   <link rel="stylesheet" id="woocommerce-smallscreen-css" href="../hpm-content/plugins/woocommerce/assets/css/woocommerce-smallscreenb12b.css?ver=3.1.1" type="text/css" media="only screen and (max-width: 768px)" />
@@ -907,7 +912,7 @@
               <div class="sidebar-social">
                 <ul>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.twitter.com/HispraiseM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
@@ -927,8 +932,8 @@
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
                 <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
                   <ul class="sub-menu">
-                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Trustees</a></li>
-                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Board Members</a></li>
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Board of Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Advisory Board</a></li>
                   </ul>
                 </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books">Books</a></li>
@@ -1064,7 +1069,7 @@
                 <ul>
                   <li><a href="../">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="a href="../profiles/board.php"">Board Members</a></li>
+                  <li><a href="../profiles/board.php">Advisory Board</a></li>
                   <li><a href="../profiles">Profiles</a></ali>
                   <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
@@ -1095,7 +1100,7 @@
                 <h3 style="color: #61c922">Connect with us</h3>
                 <ul>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.twitter.com/HispraiseM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>

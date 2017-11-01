@@ -23,6 +23,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="His Praise Ministries Incorporated">
+  <meta name="description" content="About HPM">
+  <meta name="keywords" content="About HPM, About His Praise Ministries Incorporated, About His Praise Ministries Inc.">
+  <meta name="author" content="Jesusboythatcodes">
+  <meta name="author" content="PoG">
   <link rel="shortcut icon" href="../hpm-content/uploads/favicon.png" />
   <title>About His Praise Ministry</title>
   <link rel="stylesheet" id="layerslider-css" href="../hpm-content/plugins/LayerSlider/static/layerslider/css/layerslideradc6.css?ver=6.5.5" type="text/css" media="all" />
@@ -828,7 +833,7 @@
               <div class="sidebar-social">
                 <ul>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.twitter.com/HispraiseM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
@@ -848,8 +853,8 @@
                 <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="../index.php">Home</a></li>
                 <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-25"><a href="#">Profiles</a>
                   <ul class="sub-menu">
-                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Trustees</a></li>
-                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Board Members</a></li>
+                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="../profiles">Board of Trustees</a></li>
+                    <li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="../profiles/board.php">Advisory Board</a></li>
                   </ul>
                 </li>
                 <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="../books">Books</a></li>
@@ -1044,8 +1049,8 @@
                                         <p>We offer practical information and encouragement to parents, couples, peer groups, and singles, in order to enhance their relationships.</p>
                                         <p>
                                           <ul>
-                                            <!--<li>We honor invitations to minister or teach the Word of God in gathering of the saints, be it at the Christian youths in higher institutions of learning.</li>
-                                            --><li>With regard to their spiritual growth and relationships, we hold annual Christian programmes to teach, preach or hold seminars among the married, youths and believers at large.</li>
+                                            <li>We honor invitations to minister or teach the Word of God in gathering of the saints, be it at church level, Christian fellowships or among the Christian youths in higher institutions of learning</li>
+                                            <li>With regard to their spiritual growth and relationships, we hold annual Christian programmes to teach, preach or hold seminars among the married, youths and believers at large.</li>
                                             <li>Relevant Christian Literature including Rev. Teju Oni’s books are made available for our associates to draw wonderful resources from.</li>
                                             <li>In addition, we put at our immediate Christian community’s disposal a well equipped library to help actualize our goals.</li>
                                             <li>Through the guidance of the Holy Spirit, we render inspiring and sustainable counsel to our friends.</li>
@@ -1220,7 +1225,7 @@
                                               <strong class="title">Very Rev. Dr. Mike Oye</strong>
                                               <span>Phd</span>
                                             </div>
-                                            <div class="thumb"><img src="../board/profile-pic/mike-oye" alt="Mike Oye"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/mike-oye.jpg" alt="Mike Oye"></div>
                                             <div class="text-box">
                                               <p>One of the pillars of Pentecostalism  and charismatic movement in Nigeria and Africa.  Very Rev Dr. Mike Oye, an ordained minister in the Methodist Church Nigeria, began as a travelling secretary of the Scripture Union (Nigeria), evangelizing and establishing Christian groups among youths in high schools and tertiary institutions, in August 1966.</p>
                                             </div>
@@ -1230,9 +1235,39 @@
                                               <strong class="title">REV DEMOLA FALADE</strong>
                                               <span>CHAIRMAN</span>
                                             </div>
-                                            <div class="thumb"><img src="../board/profile-pic/demola-falade" alt="Chairman"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/demola-falade.jpg" alt="Chairman"></div>
                                             <div class="text-box">
                                               <p>A steadfast believer who has served fervently for years in various capacities in the Church, as well as on the Board of several Para-Church ministries, Rev. E.A Falade, one time Head of Department, Estate Management, The Polytechnic Ibadan, is a retired Baptist Pastor.  He is the immediate pastor of El-Shaddai Baptist Church Agbowo-Ibadan.</p>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="left-box">
+                                              <strong class="title">REV. (MRS.) E. TEJU ONI</strong>
+                                              <span>PRESIDENT</span>
+                                            </div>
+                                            <div class="thumb"><img src="../board/profile-pic/teju_oni_2.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                                            <div class="text-box">
+                                              <p>REV. (MRS.) TEJU ONI, B.A French, University of Ife, M.Ed. Guidance and Counseling, University of Ibadan, is the President of His Praise Ministry Inc., a Family Ministry based in Ibadan, Nigeria. Over the years, since she pulled out of her lecturing job to answer God's call into a full-time ministry, she has ministered effectively in many churches, Christian meetings and campus Fellowships of various tertiary institutions in Nigeria.</p>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="left-box">
+                                              <strong class="title">DEAC. PROF. BAMIDELE OMITOYIN</strong>
+
+                                            </div>
+                                            <div class="thumb"><img src="../board/profile-pic/bamidele-omitoyin.jpg" alt="DEACON PROF. BAMIDELE OMITOYIN"></div>
+                                            <div class="text-box">
+                                              <p>The current President of Ibadan varsity Christian Alumni Fellowship (IVCU-AF), Prof Bamidele Omitoyin has served and he’s still serving in the leadership of many other Christian ministries.  At the moment, he is the Chairman, Board of Deaconate of his home church.  He is an Aquaculture & Fisheries expert of many years of experience, with numerous publications in international outlets; and he is the current head of Department of Aquaculture and Fisheries Department, University of Ibadan.</p>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="left-box">
+                                              <strong class="title">DEAC. DR. D. O. OLOYEDE</strong>
+
+                                            </div>
+                                            <div class="thumb"><img src="../board/profile-pic/do-oloyede.jpg" alt="DEACON DR. D. O. OLOYEDE"></div>
+                                            <div class="text-box">
+                                              <p>A fervent Christian who has served actively in several capacities in Para-church ministries over the years, at the moment, Deacon Oloyede is a Deacon at Oluyole Metropolitan Baptist Church.  He is also a full member of the Chartered Institute of Personnel Management of Nigeria and a member of its Education Committee.  He is an expert in industrial Relations and Human Resources Management.  Currently, Deacon. Oloyede is an Associate Lecturer with Bowen University, Iwo, Osun State.</p>
                                             </div>
                                           </div>
                                         </div>
@@ -1273,7 +1308,7 @@
                                             <div class="left-box">
                                               <strong class="title">Dr. (Mrs) Modupe Dawodu</strong>
                                             </div>
-                                            <div class="thumb"><img src="../board/profile-pic/modupe-dawodu.jpg" alt="modupe dawodu"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/m-dawodu.jpg" alt="M Dawodu"></div>
                                             <div class="text-box">
                                               <p>She is a child of God who has been a Sunday school Teacher for over three decades in the various Baptist Churches she had attended.  She pioneered as Sunday School Superintendent for Five years at Agbowo Baptist Church, Ibadan (Now El-Shaddai Baptist Church).</p>
                                             </div>
@@ -1286,6 +1321,15 @@
                                             <div class="thumb"><img src="../board/profile-pic/paul-ajayi.jpg" alt="Secretary"></div>
                                             <div class="text-box">
                                               <p>A dedicated serving Deacon in his church and a teacher,  Dcn. P. O Ajayi  is currently the Principal and a Co-proprietor at Maverick College, Ibadan.  He holds first and second degrees in Chemistry Education and Educational evaluation respectively.</p>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="left-box">
+                                              <strong class="title">REV. (MRS.) E. TEJU ONI</strong>
+                                            </div>
+                                            <div class="thumb"><img src="../about/images/teju.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                                            <div class="text-box">
+                                              <p>After receiving Jesus Christ as her Lord and personal Saviour in 1973, Rev. Teju Oni, B.A French, University of Ife & M.Ed Guidance &Counseling, University of Ibadan, carried her Counseling Ministry hand in hand with her career pursuits till she became lecturer 1 in the Polytechnic Ibadan.  Thereafter, she answered the call of God into a full time Family & Youth Ministry in October 1998.  An international speaker in churches and Christian Fellowship groups, a writer of many Christian books in her area of calling, Rev. Teju Oni is the set-person at His praise Ministries Inc.</p>
                                             </div>
                                           </div>
                                           <div class="item">
@@ -1378,7 +1422,7 @@
                                           <div class="post-box pstandard">
                                             <div class="text-box">
                                               <h2><a href="#">Evangelism</a></h2>
-                                              <p>In our zest to catch them early for Jesus Christ, and to impact the future leaders for God’s kingdom, a major outreach is always fixed for the single youths. However, it had to be rescheduled to January 2014 because the convenient date clashed with some other major Christian programmes in Ibadan. By God’s grace this outreach will now take place on Friday, January 24, 2014. It’s going to be an afternoon/evening powerful outreach. A lot of souls must be saved in Christ. Many youths coming up must have divine encounter with the Lord, and our fruit to abide. Amen. Also, encourage and send your single youths in town to attend. You will be pleasantly surprised by what the Lord will do.</p>
+                                              <p>In our zest to catch them early for Jesus Christ, and to impact the future leaders for God’s kingdom, a major outreach was formerly fixed for the single youths A lot of souls must be saved in Christ. Many youths coming up must have divine encounter with the Lord, and our fruit to abide. Amen. You will be pleasantly surprised by what the Lord will do.</p>
                                             </div>
                                           </div>
                                         </div>
@@ -1399,11 +1443,44 @@
                                             <div class="text-box">
                                               <h2><a href="#">External Ministration</a></h2>
                                               <p>By God’s special grace, we continue to honour invitations to come up to preach, teach, and hold seminars in churches, tertiary institutions of learning, Christian fellowships in the city and in other gatherings of the saints. We have quite a number of such invitations this year. On those occasions, Rev. Teju Oni, in the strength of the Holy Spirit, stood in to minister on behalf of His Praise Ministries. Among such, we share the following:</p>
-                                              <ul>
-                                                <li>Sexual Intimacy in Christian Marriage at Excellent Christian Couples Fellowship at Joseph Ayo Babalola University.</li>
-                                                <li>Marital Challenges. Emphasis on 3 areas: Home Assault, Sexual Intimacy and Infidelity at Bodija Ashi Baptist Church. The church in Sunday morning worship. </li>
-                                                <li>You Cannot Afford to Fail Your Generation at Youth Programme. 2 days of ministering to the youths at Bodija Ashi Baptist Church.</li>
-                                              </ul>
+                                              <table>
+                                                <thead>
+                                                  <td>PLACE</td>
+                                                  <td>TOPIC</td>
+                                                </thead>
+                                                <tr>
+                                                  <td>Excellent Christian Couples Fellowship at Joseph Ayo Babalola University. Evening fellowship.</td>
+                                                  <td>Sexual Intimacy in Christian Marriage</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Bodija Ashi Baptist Church. The church in Sunday morning worship.</td>
+                                                  <td>Marital Challenges. Emphasis on 3 areas: Home Assault, Sexual Intimacy and Infidelity. </td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Youth Programme. 2 days of ministering to the youths at Bodija Ashi Baptist Church.</td>
+                                                  <td>You Cannot Afford to Fail Your Generation.</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Excellent Family Forum, Ibadan. A quarterly held Saturday Programme.</td>
+                                                  <td>Challenges of Parenting in the 21st Century.</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>The Polytechnic Baptist Church, Ibadan.</td>
+                                                  <td>Following Jesus in the Family.</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>The Single Network. Outreach Arm of Gracelink Maranatha Mission. A Youth Ministry in Ibadan. </td>
+                                                  <td>The Need for God’s Will in the Choice of a Life Partner.</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Ajayi Crowther University, Oyo, Oyo State. Sunday morning service.</td>
+                                                  <td>"His Divine Presence"</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Joseph Ayo Babalola University, Ikeji Arakeji, Osun State. Sunday morning service at the University Chapel.</td>
+                                                  <td>Righteousness exalts: Examples of godly women in the Bible.</td>
+                                                </tr>
+                                              </table>
                                               <p>In all these places and the rest, God was highly exalted and honored, Jesus was greatly glorified and the HPM’s books enjoyed meaningful distributions. God be praised!</p>
                                             </div>
                                           </div>
@@ -1463,7 +1540,7 @@
                 <ul>
                   <li><a href="../">Home</a></li>
                   <li><a href="../contact">Contact</a></li>
-                  <li><a href="a href="../profiles/board.php"">Board Members</a></li>
+                  <li><a href="../profiles/board.php">Advisory Board</a></li>
                   <li><a href="../profiles">Profiles</a></ali>
                   <li><a href="../index.php#donate">Donate</a></li>
                 </ul>
@@ -1494,7 +1571,7 @@
                 <h3 style="color: #61c922">Connect with us</h3>
                 <ul>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.facebook.com/HisPraiseMinistries/" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-                  <li class="social-links"><a data-placement data-rel="tooltip" href="#https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.twitter.com/HispraiseM" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li class="social-links"><a data-placement data-rel="tooltip" href="https://www.linkedin.com/company/11284335/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
