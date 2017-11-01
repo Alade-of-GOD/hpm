@@ -1080,7 +1080,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <div class="frame"><img src="../about/images/teju.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                  <div class="frame"><img src="../about/images/teju_oni_2.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
                 </div>
               </div>
             </section>

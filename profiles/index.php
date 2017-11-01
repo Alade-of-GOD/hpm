@@ -1073,7 +1073,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <div class="frame"><img src="../board/profile-pic/teju_oni_2.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                  <div class="frame"><img src="../board/profile-pic/president.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
                 </div>
               </div>
             </section>

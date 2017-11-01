@@ -1245,7 +1245,7 @@
                                               <strong class="title">REV. (MRS.) E. TEJU ONI</strong>
                                               <span>PRESIDENT</span>
                                             </div>
-                                            <div class="thumb"><img src="../board/profile-pic/teju_oni_2.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/president.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
                                             <div class="text-box">
                                               <p>REV. (MRS.) TEJU ONI, B.A French, University of Ife, M.Ed. Guidance and Counseling, University of Ibadan, is the President of His Praise Ministry Inc., a Family Ministry based in Ibadan, Nigeria. Over the years, since she pulled out of her lecturing job to answer God's call into a full-time ministry, she has ministered effectively in many churches, Christian meetings and campus Fellowships of various tertiary institutions in Nigeria.</p>
                                             </div>
@@ -1327,7 +1327,7 @@
                                             <div class="left-box">
                                               <strong class="title">REV. (MRS.) E. TEJU ONI</strong>
                                             </div>
-                                            <div class="thumb"><img src="../about/images/teju.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
+                                            <div class="thumb"><img src="../board/profile-pic/teju_oni_2.jpg" alt="REV. (MRS.) E. TEJU ONI"></div>
                                             <div class="text-box">
                                               <p>After receiving Jesus Christ as her Lord and personal Saviour in 1973, Rev. Teju Oni, B.A French, University of Ife & M.Ed Guidance &Counseling, University of Ibadan, carried her Counseling Ministry hand in hand with her career pursuits till she became lecturer 1 in the Polytechnic Ibadan.  Thereafter, she answered the call of God into a full time Family & Youth Ministry in October 1998.  An international speaker in churches and Christian Fellowship groups, a writer of many Christian books in her area of calling, Rev. Teju Oni is the set-person at His praise Ministries Inc.</p>
                                             </div>
